@@ -49,3 +49,58 @@ class HomePage(BasePage):
             screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, f"HomePage_{section_text}_Error")
             allure.attach.file(screenshot_path, name=f"HomePage_{section_text}_Error", attachment_type=allure.attachment_type.PNG)
             raise
+
+    def search_product(self, search_text):
+        try:
+            logger.info(f"Searching for product: {search_text}")
+
+            search_box = self.wait.until(
+                EC.element_to_be_clickable((By.XPATH, '//input[@placeholder="Search on Nykaa"]'))
+            )
+
+            search_box.clear()
+            search_box.send_keys(search_text)
+            logger.info("Entered search text")
+
+            # Press Enter
+            search_box.send_keys("\n")
+            logger.info("Pressed Enter for search")
+
+            # Wait for error message (negative case)
+            error_element = self.wait.until(
+                EC.presence_of_element_located((By.XPATH, '//div[contains(text(),"Thanks")]'))
+            )
+
+            assert error_element.is_displayed(), "Error message not displayed for invalid search"
+            logger.info("Assertion passed: Error message displayed")
+
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "Search_Error")
+            allure.attach.file(
+                screenshot_path,
+                name="Search_Error",
+                attachment_type=allure.attachment_type.PNG
+            )
+
+            return True
+
+        except AssertionError as ae:
+            logger.error(f"Assertion failed: {str(ae)}")
+
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "Search_Failure")
+            allure.attach.file(
+                screenshot_path,
+                name="Search_Failure",
+                attachment_type=allure.attachment_type.PNG
+            )
+            raise
+
+        except Exception as e:
+            logger.error(f"Error during search: {str(e)}")
+
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "Search_Error_Exception")
+            allure.attach.file(
+                screenshot_path,
+                name="Search_Error_Exception",
+                attachment_type=allure.attachment_type.PNG
+            )
+            raise

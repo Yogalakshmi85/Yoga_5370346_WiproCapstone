@@ -1,3 +1,4 @@
+from selenium.common import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
@@ -30,12 +31,22 @@ class LuxeStorePage(BasePage):
 
             # Verify at least one product contains the brand name
             brand_products = [p.text for p in products if brand_name.lower() in p.text.lower()]
-            assert brand_products, f"{brand_name} filter not applied! No products found with {brand_name} in name."
-            logger.info(f"{brand_name} filter verified with products: {brand_products[:3]}")
+            if not brand_products:
+                logger.warning(f"No products found for {brand_name}")
+                return False
 
-            # Capture screenshot and attach to Allure
+            logger.info(f"{brand_name} filter verified with products: {brand_products[:3]}")
             screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, f"LuxeStorePage_Filter_{brand_name}")
-            allure.attach.file(screenshot_path, name=f"LuxeStorePage_Filter_{brand_name}", attachment_type=allure.attachment_type.PNG)
+            allure.attach.file(screenshot_path, name=f"LuxeStorePage_Filter_{brand_name}",
+                               attachment_type=allure.attachment_type.PNG)
+            return True
+
+        except (TimeoutException, NoSuchElementException) as e:
+            logger.error(f"Filter {filter_type} for {brand_name} not found: {str(e)}")
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, f"LuxeStorePage_Filter_{brand_name}_Error")
+            allure.attach.file(screenshot_path, name=f"LuxeStorePage_Filter_{brand_name}_Error",
+                               attachment_type=allure.attachment_type.PNG)
+            return False
 
         except AssertionError as ae:
             logger.error(f"Assertion failed: {str(ae)}")

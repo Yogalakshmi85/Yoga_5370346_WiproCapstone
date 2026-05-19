@@ -1,0 +1,40 @@
+[32mINFO    [0m automation:test_filters.py:19 TESTING FILTER APPLICATION
+[32mINFO    [0m automation:test_filters.py:20 Starting filter test for brand: InvalidBrand
+[32mINFO    [0m automation:home_page.py:14 Attempting to navigate to section: men
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/HomePage_men_20260520_015044.png
+[32mINFO    [0m automation:home_page.py:23 Clicked on men link
+[32mINFO    [0m automation:home_page.py:27 Switched to new window/tab
+[32mINFO    [0m automation:home_page.py:32 Assertion passed: men page successfully loaded
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/MenPage_men_20260520_015050.png
+[32mINFO    [0m automation:men_page.py:14 Attempting to navigate to Luxe Store: luxe-fragrances
+[32mINFO    [0m automation:men_page.py:23 Clicked Luxe Store banner for luxe-fragrances
+[32mINFO    [0m automation:men_page.py:27 Switched to new window/tab
+[32mINFO    [0m automation:men_page.py:32 Assertion passed: luxe-fragrances page successfully loaded
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_015054.png
+[32mINFO    [0m automation:luxe_store_page.py:15 Expanding Brand filter
+[32mINFO    [0m automation:luxe_store_page.py:21 Selecting brand: InvalidBrand
+[31m[1mERROR   [0m automation:luxe_store_page.py:45 Filter Brand for InvalidBrand not found: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff675371e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff67509e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff674ded57d]
+	chromedriver!(No symbol) [0x7ff674e4767e]
+	chromedriver!(No symbol) [0x7ff674e4798c]
+	chromedriver!(No symbol) [0x7ff674e980c7]
+	chromedriver!(No symbol) [0x7ff674e94c63]
+	chromedriver!(No symbol) [0x7ff674e39d58]
+	chromedriver!(No symbol) [0x7ff674e3ac43]
+	chromedriver!GetHandleVerifier [0x7ff67539dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff67539802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff6753bc872+333782]
+	chromedriver!GetHandleVerifier [0x7ff6750bb785+32695]
+	chromedriver!GetHandleVerifier [0x7ff6750c42bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff6750a7f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff6750a80b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff67508bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff908e1e957+17]
+	ntdll!RtlUserThreadStart [0x7ff90a8e427c+2c]
+
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_InvalidBrand_Error_20260520_015105.png
+[32mINFO    [0m automation:test_filters.py:39 Assertion passed: No products for invalid brand InvalidBrand
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/Filter_InvalidBrand_20260520_015106.png

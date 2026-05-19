@@ -1,67 +1,291 @@
-2026-05-19 19:57:30,643 - INFO - =======================================
-2026-05-19 19:57:30,644 - INFO - STARTING END-TO-END NYKAA TEST
-2026-05-19 19:57:33,181 - INFO - Opened base URL: https://www.nykaa.com/
-2026-05-19 19:57:33,182 - INFO - Home page loaded successfully
-2026-05-19 19:57:33,182 - INFO - Attempting to navigate to section: men
-2026-05-19 19:57:37,980 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260519_195733.png
-2026-05-19 19:57:40,803 - INFO - Clicked on men link
-2026-05-19 19:57:40,922 - INFO - Switched to new window/tab
-2026-05-19 19:57:43,105 - INFO - Assertion passed: men page successfully loaded
-2026-05-19 19:57:44,467 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260519_195743.png
-2026-05-19 19:57:46,761 - INFO - Navigation successful: men page loaded
-2026-05-19 19:57:46,761 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
-2026-05-19 19:57:54,703 - INFO - Clicked Luxe Store banner for luxe-fragrances
-2026-05-19 19:57:54,717 - INFO - Switched to new window/tab
-2026-05-19 19:57:55,151 - INFO - Assertion passed: luxe-fragrances page successfully loaded
-2026-05-19 19:57:55,626 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260519_195755.png
-2026-05-19 19:57:55,664 - INFO - Navigation successful: luxe-fragrances page loaded
-2026-05-19 19:57:55,665 - INFO - Applying filter: Brand -> Gucci
-2026-05-19 19:57:55,665 - INFO - Expanding Brand filter
-2026-05-19 19:57:56,163 - INFO - Selecting brand: Gucci
-2026-05-19 19:57:59,567 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
-2026-05-19 19:57:59,779 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260519_195759.png
-2026-05-19 19:57:59,813 - INFO - Filter applied successfully: Gucci
-2026-05-19 19:57:59,813 - INFO - Selecting first product card
-2026-05-19 19:58:00,558 - INFO - Switched to product tab
-2026-05-19 19:58:00,559 - INFO - Product selected from Luxe Store
-2026-05-19 19:58:03,329 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_ProductSelected_20260519_195800.png
-2026-05-19 19:58:13,824 - INFO - No size selection needed.
-2026-05-19 19:58:14,293 - INFO - Clicked 'Add to Bag'.
-2026-05-19 19:58:14,355 - INFO - Switched to cart window/tab.
-2026-05-19 19:58:14,435 - INFO - Assertion passed: Product successfully added to cart.
-2026-05-19 19:58:15,467 - INFO - Screenshot saved at: reports/screenshots/ProductPage_AddToCart_20260519_195814.png
-2026-05-19 19:58:15,617 - INFO - Product added to cart
-2026-05-19 19:58:18,489 - INFO - Clicked bag icon.
-2026-05-19 19:58:22,847 - INFO - Screenshot saved at: reports/screenshots/CartPage_BagClicked_20260519_195820.png
-2026-05-19 19:58:22,943 - INFO - Navigated to cart page
-2026-05-19 19:58:24,942 - INFO - Clicked Proceed button.
-2026-05-19 19:58:27,158 - INFO - Screenshot saved at: reports/screenshots/CartPage_ProceedClicked_20260519_195826.png
-2026-05-19 19:58:27,205 - INFO - Clicked Proceed on cart page
-2026-05-19 19:58:28,250 - INFO - Clicked Continue as guest.
-2026-05-19 19:58:33,662 - INFO - Assertion passed: Shipping details page loaded.
-2026-05-19 19:58:33,854 - INFO - Screenshot saved at: reports/screenshots/CartPage_ContinueAsGuest_20260519_195833.png
-2026-05-19 19:58:34,172 - INFO - Continuing as guest
-2026-05-19 19:58:34,174 - INFO - Reading shipping details from Excel
-2026-05-19 19:58:34,521 - INFO - Entering Name: Yoga
-2026-05-19 19:58:35,334 - INFO - Entering Phone: 6369887216
-2026-05-19 19:58:37,659 - INFO - Entering Email: yogalakshmin24@gmail.com
-2026-05-19 19:58:39,317 - INFO - Entering Flat/House No: 391
-2026-05-19 19:58:39,911 - INFO - Entering Area: Selvapuram
-2026-05-19 19:58:40,719 - INFO - Entering Pincode: 641026
-2026-05-19 19:58:41,765 - INFO - Shipping details filled successfully from Excel
-2026-05-19 19:58:41,951 - INFO - Screenshot saved at: reports/screenshots/ShippingDetailsPage_Filled_20260519_195841.png
-2026-05-19 19:58:42,005 - INFO - Shipping details filled from Excel
-2026-05-19 19:58:42,006 - INFO - Attempting to click 'SHIP TO THIS ADDRESS' button
-2026-05-19 19:58:42,842 - INFO - Clicked 'SHIP TO THIS ADDRESS'.
-2026-05-19 19:58:42,877 - INFO - Switched to payment window/tab
-2026-05-19 19:58:47,902 - INFO - Assertion passed: Payment page successfully loaded
-2026-05-19 19:58:48,167 - INFO - Screenshot saved at: reports/screenshots/ShippingDetailsPage_ShipToAddress_20260519_195847.png
-2026-05-19 19:58:48,612 - INFO - Navigated to payment page
-2026-05-19 19:58:48,618 - INFO - Attempting to select payment method: Cash on delivery
-2026-05-19 19:58:52,624 - INFO - Clicked on Cash on delivery option
-2026-05-19 19:58:52,682 - INFO - Assertion passed: Cash on delivery option activated
-2026-05-19 19:58:52,846 - INFO - Screenshot saved at: reports/screenshots/PaymentPage_Cash_on_delivery_20260519_195852.png
-2026-05-19 19:58:52,882 - INFO - Payment method selected: Cash on delivery
-2026-05-19 19:58:52,883 - INFO - Order flow completed successfully
-2026-05-19 19:58:52,883 - INFO - =======================================
-2026-05-19 19:58:52,884 - INFO - End-to-end Nykaa test passed successfully.
+2026-05-20 01:47:46,633 - INFO - CART VERIFICATION
+2026-05-20 01:47:46,634 - INFO - Starting Cart Verification Test for brand: Gucci
+2026-05-20 01:47:46,635 - INFO - Attempting to navigate to section: men
+2026-05-20 01:47:49,309 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260520_014746.png
+2026-05-20 01:47:51,805 - INFO - Clicked on men link
+2026-05-20 01:47:51,842 - INFO - Switched to new window/tab
+2026-05-20 01:47:53,795 - INFO - Assertion passed: men page successfully loaded
+2026-05-20 01:47:55,887 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260520_014753.png
+2026-05-20 01:47:55,981 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-20 01:48:02,638 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-20 01:48:02,663 - INFO - Switched to new window/tab
+2026-05-20 01:48:03,259 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-20 01:48:03,916 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_014803.png
+2026-05-20 01:48:03,958 - INFO - Expanding Brand filter
+2026-05-20 01:48:04,818 - INFO - Selecting brand: Gucci
+2026-05-20 01:48:08,912 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
+2026-05-20 01:48:09,201 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260520_014808.png
+2026-05-20 01:48:09,253 - INFO - Filter applied successfully for Gucci
+2026-05-20 01:48:09,254 - INFO - Selecting first product card
+2026-05-20 01:48:10,456 - INFO - Switched to product tab
+2026-05-20 01:48:13,013 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_ProductSelected_20260520_014810.png
+2026-05-20 01:48:23,334 - INFO - No size selection needed.
+2026-05-20 01:48:23,814 - INFO - Clicked 'Add to Bag'.
+2026-05-20 01:48:23,834 - INFO - Switched to cart window/tab.
+2026-05-20 01:48:23,880 - INFO - Assertion passed: Product successfully added to cart.
+2026-05-20 01:48:25,212 - INFO - Screenshot saved at: reports/screenshots/ProductPage_AddToCart_20260520_014823.png
+2026-05-20 01:48:25,553 - INFO - Assertion passed: Cart has items.
+2026-05-20 01:48:25,852 - INFO - Screenshot saved at: reports/screenshots/CartPage_VerifyCart_20260520_014825.png
+2026-05-20 01:48:25,885 - INFO - Assertion passed: Cart contains product
+2026-05-20 01:48:26,190 - INFO - Screenshot saved at: reports/screenshots/Cart_Gucci_20260520_014825.png
+2026-05-20 01:48:28,065 - INFO - CHECKOUT NAVIGATION VERIFICATION
+2026-05-20 01:48:28,065 - INFO - Starting Checkout Navigation Test for brand: Gucci
+2026-05-20 01:48:28,066 - INFO - Attempting to navigate to section: men
+2026-05-20 01:48:29,244 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260520_014828.png
+2026-05-20 01:48:31,449 - INFO - Clicked on men link
+2026-05-20 01:48:32,597 - INFO - Switched to new window/tab
+2026-05-20 01:48:34,380 - INFO - Assertion passed: men page successfully loaded
+2026-05-20 01:48:36,250 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260520_014834.png
+2026-05-20 01:48:36,294 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-20 01:48:39,919 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-20 01:48:39,948 - INFO - Switched to new window/tab
+2026-05-20 01:48:40,491 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-20 01:48:41,319 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_014840.png
+2026-05-20 01:48:41,369 - INFO - Expanding Brand filter
+2026-05-20 01:48:42,867 - INFO - Selecting brand: Gucci
+2026-05-20 01:48:47,363 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
+2026-05-20 01:48:47,599 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260520_014847.png
+2026-05-20 01:48:47,646 - INFO - Filter applied successfully
+2026-05-20 01:48:47,647 - INFO - Selecting first product card
+2026-05-20 01:48:48,629 - INFO - Switched to product tab
+2026-05-20 01:48:51,466 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_ProductSelected_20260520_014848.png
+2026-05-20 01:49:01,719 - INFO - No size selection needed.
+2026-05-20 01:49:02,239 - INFO - Clicked 'Add to Bag'.
+2026-05-20 01:49:02,254 - INFO - Switched to cart window/tab.
+2026-05-20 01:49:02,313 - INFO - Assertion passed: Product successfully added to cart.
+2026-05-20 01:49:03,637 - INFO - Screenshot saved at: reports/screenshots/ProductPage_AddToCart_20260520_014902.png
+2026-05-20 01:49:04,172 - INFO - Assertion passed: Cart has items.
+2026-05-20 01:49:04,412 - INFO - Screenshot saved at: reports/screenshots/CartPage_VerifyCart_20260520_014904.png
+2026-05-20 01:49:05,215 - INFO - Clicked bag icon.
+2026-05-20 01:49:07,418 - INFO - Screenshot saved at: reports/screenshots/CartPage_BagClicked_20260520_014907.png
+2026-05-20 01:49:09,251 - INFO - Clicked Proceed button.
+2026-05-20 01:49:12,188 - INFO - Screenshot saved at: reports/screenshots/CartPage_ProceedClicked_20260520_014911.png
+2026-05-20 01:49:12,708 - INFO - Clicked Continue as guest.
+2026-05-20 01:49:17,727 - INFO - Assertion passed: Shipping details page loaded.
+2026-05-20 01:49:17,875 - INFO - Screenshot saved at: reports/screenshots/CartPage_ContinueAsGuest_20260520_014917.png
+2026-05-20 01:49:17,928 - INFO - Assertion passed: Navigated to Shipping Page
+2026-05-20 01:49:18,133 - INFO - Screenshot saved at: reports/screenshots/CheckoutNavigation_Gucci_20260520_014917.png
+2026-05-20 01:49:18,240 - INFO - =======================================
+2026-05-20 01:49:18,240 - INFO - STARTING END-TO-END NYKAA TEST
+2026-05-20 01:49:20,413 - INFO - Opened base URL: https://www.nykaa.com/
+2026-05-20 01:49:20,413 - INFO - Home page loaded successfully
+2026-05-20 01:49:20,414 - INFO - Attempting to navigate to section: men
+2026-05-20 01:49:22,024 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260520_014920.png
+2026-05-20 01:49:22,814 - INFO - Clicked on men link
+2026-05-20 01:49:23,812 - INFO - Switched to new window/tab
+2026-05-20 01:49:25,315 - INFO - Assertion passed: men page successfully loaded
+2026-05-20 01:49:26,238 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260520_014925.png
+2026-05-20 01:49:26,313 - INFO - Navigation successful: men page loaded
+2026-05-20 01:49:26,314 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-20 01:49:29,524 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-20 01:49:29,541 - INFO - Switched to new window/tab
+2026-05-20 01:49:30,046 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-20 01:49:30,721 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_014930.png
+2026-05-20 01:49:30,769 - INFO - Navigation successful: luxe-fragrances page loaded
+2026-05-20 01:49:30,769 - INFO - Applying filter: Brand -> Gucci
+2026-05-20 01:49:30,770 - INFO - Expanding Brand filter
+2026-05-20 01:49:31,804 - INFO - Selecting brand: Gucci
+2026-05-20 01:49:36,101 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
+2026-05-20 01:49:36,413 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260520_014936.png
+2026-05-20 01:49:36,460 - INFO - Filter applied successfully: Gucci
+2026-05-20 01:49:36,462 - INFO - Selecting first product card
+2026-05-20 01:49:37,618 - INFO - Switched to product tab
+2026-05-20 01:49:37,618 - INFO - Product selected from Luxe Store
+2026-05-20 01:49:39,581 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_ProductSelected_20260520_014937.png
+2026-05-20 01:49:49,780 - INFO - No size selection needed.
+2026-05-20 01:49:50,300 - INFO - Clicked 'Add to Bag'.
+2026-05-20 01:49:50,320 - INFO - Switched to cart window/tab.
+2026-05-20 01:49:50,388 - INFO - Assertion passed: Product successfully added to cart.
+2026-05-20 01:49:51,451 - INFO - Screenshot saved at: reports/screenshots/ProductPage_AddToCart_20260520_014950.png
+2026-05-20 01:49:51,489 - INFO - Product added to cart
+2026-05-20 01:49:52,526 - INFO - Clicked bag icon.
+2026-05-20 01:49:54,848 - INFO - Screenshot saved at: reports/screenshots/CartPage_BagClicked_20260520_014954.png
+2026-05-20 01:49:54,885 - INFO - Navigated to cart page
+2026-05-20 01:49:58,967 - INFO - Clicked Proceed button.
+2026-05-20 01:50:01,173 - INFO - Screenshot saved at: reports/screenshots/CartPage_ProceedClicked_20260520_015000.png
+2026-05-20 01:50:01,212 - INFO - Clicked Proceed on cart page
+2026-05-20 01:50:01,635 - INFO - Clicked Continue as guest.
+2026-05-20 01:50:06,648 - INFO - Assertion passed: Shipping details page loaded.
+2026-05-20 01:50:06,808 - INFO - Screenshot saved at: reports/screenshots/CartPage_ContinueAsGuest_20260520_015006.png
+2026-05-20 01:50:06,841 - INFO - Continuing as guest
+2026-05-20 01:50:06,842 - INFO - Reading shipping details from Excel
+2026-05-20 01:50:06,871 - INFO - Entering Name: Yoga
+2026-05-20 01:50:07,405 - INFO - Entering Phone: 6369887216
+2026-05-20 01:50:08,071 - INFO - Entering Email: yogalakshmin24@gmail.com
+2026-05-20 01:50:09,167 - INFO - Entering Flat/House No: 391
+2026-05-20 01:50:09,702 - INFO - Entering Area: Selvapuram
+2026-05-20 01:50:10,477 - INFO - Entering Pincode: 641026
+2026-05-20 01:50:11,110 - INFO - Shipping details filled successfully
+2026-05-20 01:50:11,252 - INFO - Screenshot saved at: reports/screenshots/ShippingDetails_Filled_20260520_015011.png
+2026-05-20 01:50:11,288 - INFO - Shipping details filled from Excel
+2026-05-20 01:50:11,288 - INFO - Attempting to click 'SHIP TO THIS ADDRESS' button
+2026-05-20 01:50:11,833 - INFO - Clicked 'SHIP TO THIS ADDRESS'.
+2026-05-20 01:50:11,879 - INFO - Switched to payment window/tab
+2026-05-20 01:50:16,894 - INFO - Current URL after click: https://www.nykaa.com/v2/payment
+2026-05-20 01:50:17,124 - INFO - Screenshot saved at: reports/screenshots/ShippingDetailsPage_ShipToAddress_20260520_015016.png
+2026-05-20 01:50:17,159 - INFO - Payment page successfully loaded
+2026-05-20 01:50:17,159 - INFO - Navigated to payment page
+2026-05-20 01:50:17,159 - INFO - Attempting to select payment method: Cash on delivery
+2026-05-20 01:50:17,488 - INFO - Clicked on Cash on delivery option
+2026-05-20 01:50:17,562 - INFO - Assertion passed: Cash on delivery option activated
+2026-05-20 01:50:17,798 - INFO - Screenshot saved at: reports/screenshots/PaymentPage_Cash_on_delivery_20260520_015017.png
+2026-05-20 01:50:17,833 - INFO - Payment method selected: Cash on delivery
+2026-05-20 01:50:17,834 - INFO - Order flow completed successfully
+2026-05-20 01:50:17,835 - INFO - =======================================
+2026-05-20 01:50:17,836 - INFO - End-to-end Nykaa test passed successfully.
+2026-05-20 01:50:20,776 - INFO - TESTING FILTER APPLICATION
+2026-05-20 01:50:20,777 - INFO - Starting filter test for brand: Gucci
+2026-05-20 01:50:20,777 - INFO - Attempting to navigate to section: men
+2026-05-20 01:50:22,145 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260520_015020.png
+2026-05-20 01:50:23,038 - INFO - Clicked on men link
+2026-05-20 01:50:23,081 - INFO - Switched to new window/tab
+2026-05-20 01:50:25,841 - INFO - Assertion passed: men page successfully loaded
+2026-05-20 01:50:27,147 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260520_015025.png
+2026-05-20 01:50:27,193 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-20 01:50:30,675 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-20 01:50:30,695 - INFO - Switched to new window/tab
+2026-05-20 01:50:31,187 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-20 01:50:32,059 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_015031.png
+2026-05-20 01:50:32,112 - INFO - Expanding Brand filter
+2026-05-20 01:50:33,369 - INFO - Selecting brand: Gucci
+2026-05-20 01:50:39,334 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
+2026-05-20 01:50:39,635 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260520_015039.png
+2026-05-20 01:50:39,681 - INFO - Selecting first product card
+2026-05-20 01:50:40,952 - INFO - Switched to product tab
+2026-05-20 01:50:40,952 - INFO - Assertion passed: Products found for Gucci
+2026-05-20 01:50:42,859 - INFO - Screenshot saved at: reports/screenshots/Filter_Gucci_20260520_015040.png
+2026-05-20 01:50:44,262 - INFO - TESTING FILTER APPLICATION
+2026-05-20 01:50:44,262 - INFO - Starting filter test for brand: InvalidBrand
+2026-05-20 01:50:44,262 - INFO - Attempting to navigate to section: men
+2026-05-20 01:50:46,425 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260520_015044.png
+2026-05-20 01:50:47,480 - INFO - Clicked on men link
+2026-05-20 01:50:48,618 - INFO - Switched to new window/tab
+2026-05-20 01:50:50,024 - INFO - Assertion passed: men page successfully loaded
+2026-05-20 01:50:51,101 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260520_015050.png
+2026-05-20 01:50:51,132 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-20 01:50:53,460 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-20 01:50:53,475 - INFO - Switched to new window/tab
+2026-05-20 01:50:54,136 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-20 01:50:54,899 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_015054.png
+2026-05-20 01:50:54,934 - INFO - Expanding Brand filter
+2026-05-20 01:50:55,642 - INFO - Selecting brand: InvalidBrand
+2026-05-20 01:51:05,729 - ERROR - Filter Brand for InvalidBrand not found: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff675371e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff67509e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff674ded57d]
+	chromedriver!(No symbol) [0x7ff674e4767e]
+	chromedriver!(No symbol) [0x7ff674e4798c]
+	chromedriver!(No symbol) [0x7ff674e980c7]
+	chromedriver!(No symbol) [0x7ff674e94c63]
+	chromedriver!(No symbol) [0x7ff674e39d58]
+	chromedriver!(No symbol) [0x7ff674e3ac43]
+	chromedriver!GetHandleVerifier [0x7ff67539dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff67539802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff6753bc872+333782]
+	chromedriver!GetHandleVerifier [0x7ff6750bb785+32695]
+	chromedriver!GetHandleVerifier [0x7ff6750c42bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff6750a7f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff6750a80b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff67508bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff908e1e957+17]
+	ntdll!RtlUserThreadStart [0x7ff90a8e427c+2c]
+
+2026-05-20 01:51:06,147 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_InvalidBrand_Error_20260520_015105.png
+2026-05-20 01:51:06,187 - INFO - Assertion passed: No products for invalid brand InvalidBrand
+2026-05-20 01:51:06,655 - INFO - Screenshot saved at: reports/screenshots/Filter_InvalidBrand_20260520_015106.png
+2026-05-20 01:51:06,781 - INFO - SIGN-IN VERIFICATION
+2026-05-20 01:51:06,782 - INFO - Starting sign-in test for brand: 9876543210
+2026-05-20 01:51:08,574 - INFO - Clicking Sign in button
+2026-05-20 01:51:10,082 - INFO - Entering phone number: 9876543210
+2026-05-20 01:51:10,838 - INFO - Clicking Send OTP
+2026-05-20 01:51:12,571 - INFO - Navigated to Auth page
+2026-05-20 01:51:13,700 - INFO - Clicking Get OTP
+2026-05-20 01:51:15,813 - ERROR - OTP verification page did not load: Message: element click intercepted: Element <button kind="primary" shape="default" class="css-15q5a8e">...</button> is not clickable at point (1076, 320). Other element would receive the click: <div class="css-1y2icpj">...</div>
+  (Session info: chrome=148.0.7778.168); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff675371e35+2e8d45]
+	chromedriver!GetHandleVerifier [0x7ff67509e6c0+155d0]
+	chromedriver!(No symbol) [0x7ff674ded57d]
+	chromedriver!(No symbol) [0x7ff674e4f205]
+	chromedriver!(No symbol) [0x7ff674e4ce1a]
+	chromedriver!(No symbol) [0x7ff674e4a167]
+	chromedriver!(No symbol) [0x7ff674e49017]
+	chromedriver!(No symbol) [0x7ff674e3bc46]
+	chromedriver!(No symbol) [0x7ff674e6fe6a]
+	chromedriver!(No symbol) [0x7ff674e3b4c6]
+	chromedriver!(No symbol) [0x7ff674e94c63]
+	chromedriver!(No symbol) [0x7ff674e39d58]
+	chromedriver!(No symbol) [0x7ff674e3ac43]
+	chromedriver!GetHandleVerifier [0x7ff67539dab9+3149c9]
+	chromedriver!GetHandleVerifier [0x7ff67539802b+30ef3b]
+	chromedriver!GetHandleVerifier [0x7ff6753bc872+333782]
+	chromedriver!GetHandleVerifier [0x7ff6750bb785+32695]
+	chromedriver!GetHandleVerifier [0x7ff6750c42bc+3b1cc]
+	chromedriver!GetHandleVerifier [0x7ff6750a7f24+1ee34]
+	chromedriver!GetHandleVerifier [0x7ff6750a80b4+1efc4]
+	chromedriver!GetHandleVerifier [0x7ff67508bf27+2e37]
+	KERNEL32!BaseThreadInitThunk [0x7ff908e1e957+17]
+	ntdll!RtlUserThreadStart [0x7ff90a8e427c+2c]
+
+2026-05-20 01:51:16,311 - INFO - Screenshot saved at: reports/screenshots/LoginPage_LoginFailure_20260520_015115.png
+2026-05-20 01:51:17,048 - INFO - INVALID SEARCH VERIFICATION
+2026-05-20 01:51:17,048 - INFO - Starting test for brand: @$%^
+2026-05-20 01:51:20,847 - INFO - Searching for product: @$%^
+2026-05-20 01:51:25,812 - INFO - Entered search text
+2026-05-20 01:51:27,644 - INFO - Pressed Enter for search
+2026-05-20 01:51:27,808 - INFO - Assertion passed: Error message displayed
+2026-05-20 01:51:28,398 - INFO - Screenshot saved at: reports/screenshots/Search_Error_20260520_015127.png
+2026-05-20 01:51:28,434 - INFO - Test passed: Invalid search handled correctly
+2026-05-20 01:51:28,760 - INFO - Screenshot saved at: reports/screenshots/Test_Search_Pass_20260520_015128.png
+2026-05-20 01:51:28,835 - INFO - SHIPPING DETAILS VERIFICATION
+2026-05-20 01:51:28,835 - INFO - ===== START INVALID PINCODE TEST =====
+2026-05-20 01:51:30,659 - INFO - Attempting to navigate to section: men
+2026-05-20 01:51:33,230 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260520_015130.png
+2026-05-20 01:51:34,083 - INFO - Clicked on men link
+2026-05-20 01:51:34,418 - INFO - Switched to new window/tab
+2026-05-20 01:51:36,358 - INFO - Assertion passed: men page successfully loaded
+2026-05-20 01:51:37,554 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260520_015136.png
+2026-05-20 01:51:37,585 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-20 01:51:40,550 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-20 01:51:40,582 - INFO - Switched to new window/tab
+2026-05-20 01:51:41,175 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-20 01:51:41,856 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_015141.png
+2026-05-20 01:51:41,912 - INFO - Expanding Brand filter
+2026-05-20 01:51:42,872 - INFO - Selecting brand: Gucci
+2026-05-20 01:51:47,017 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
+2026-05-20 01:51:47,316 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260520_015147.png
+2026-05-20 01:51:47,360 - INFO - Selecting first product card
+2026-05-20 01:51:49,379 - INFO - Switched to product tab
+2026-05-20 01:51:51,241 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_ProductSelected_20260520_015149.png
+2026-05-20 01:52:01,472 - INFO - No size selection needed.
+2026-05-20 01:52:01,939 - INFO - Clicked 'Add to Bag'.
+2026-05-20 01:52:01,965 - INFO - Switched to cart window/tab.
+2026-05-20 01:52:02,041 - INFO - Assertion passed: Product successfully added to cart.
+2026-05-20 01:52:03,184 - INFO - Screenshot saved at: reports/screenshots/ProductPage_AddToCart_20260520_015202.png
+2026-05-20 01:52:04,057 - INFO - Clicked bag icon.
+2026-05-20 01:52:06,347 - INFO - Screenshot saved at: reports/screenshots/CartPage_BagClicked_20260520_015206.png
+2026-05-20 01:52:08,009 - INFO - Clicked Proceed button.
+2026-05-20 01:52:10,561 - INFO - Screenshot saved at: reports/screenshots/CartPage_ProceedClicked_20260520_015210.png
+2026-05-20 01:52:11,014 - INFO - Clicked Continue as guest.
+2026-05-20 01:52:16,030 - INFO - Assertion passed: Shipping details page loaded.
+2026-05-20 01:52:16,215 - INFO - Screenshot saved at: reports/screenshots/CartPage_ContinueAsGuest_20260520_015216.png
+2026-05-20 01:52:16,253 - INFO - Reading shipping details from Excel
+2026-05-20 01:52:16,267 - INFO - Entering Name: Yoga
+2026-05-20 01:52:16,619 - INFO - Entering Phone: 6369887216
+2026-05-20 01:52:17,245 - INFO - Entering Email: yogalakshmin24@gmail.com
+2026-05-20 01:52:18,392 - INFO - Entering Flat/House No: 391
+2026-05-20 01:52:18,859 - INFO - Entering Area: Selvapuram
+2026-05-20 01:52:19,588 - INFO - Entering Pincode: 123456
+2026-05-20 01:52:20,298 - INFO - Shipping details filled successfully
+2026-05-20 01:52:20,472 - INFO - Screenshot saved at: reports/screenshots/ShippingDetails_Filled_20260520_015220.png
+2026-05-20 01:52:20,513 - INFO - Entered invalid pincode: 123456
+2026-05-20 01:52:20,514 - INFO - Attempting to click 'SHIP TO THIS ADDRESS' button
+2026-05-20 01:52:20,990 - INFO - Clicked 'SHIP TO THIS ADDRESS'.
+2026-05-20 01:52:21,022 - INFO - Switched to payment window/tab
+2026-05-20 01:52:26,036 - INFO - Current URL after click: https://www.nykaa.com/v2/address
+2026-05-20 01:52:26,188 - INFO - Screenshot saved at: reports/screenshots/ShippingDetailsPage_ShipToAddress_20260520_015226.png
+2026-05-20 01:52:26,223 - INFO - Stayed on address page - possible validation error
+2026-05-20 01:52:26,275 - INFO - Assertion passed: Invalid pincode validation shown
+2026-05-20 01:52:26,461 - INFO - Screenshot saved at: reports/screenshots/Invalid_Pincode_Error_20260520_015226.png
+2026-05-20 01:52:26,509 - INFO - ===== TEST PASSED =====
