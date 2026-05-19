@@ -1,0 +1,67 @@
+2026-05-19 19:57:30,643 - INFO - =======================================
+2026-05-19 19:57:30,644 - INFO - STARTING END-TO-END NYKAA TEST
+2026-05-19 19:57:33,181 - INFO - Opened base URL: https://www.nykaa.com/
+2026-05-19 19:57:33,182 - INFO - Home page loaded successfully
+2026-05-19 19:57:33,182 - INFO - Attempting to navigate to section: men
+2026-05-19 19:57:37,980 - INFO - Screenshot saved at: reports/screenshots/HomePage_men_20260519_195733.png
+2026-05-19 19:57:40,803 - INFO - Clicked on men link
+2026-05-19 19:57:40,922 - INFO - Switched to new window/tab
+2026-05-19 19:57:43,105 - INFO - Assertion passed: men page successfully loaded
+2026-05-19 19:57:44,467 - INFO - Screenshot saved at: reports/screenshots/MenPage_men_20260519_195743.png
+2026-05-19 19:57:46,761 - INFO - Navigation successful: men page loaded
+2026-05-19 19:57:46,761 - INFO - Attempting to navigate to Luxe Store: luxe-fragrances
+2026-05-19 19:57:54,703 - INFO - Clicked Luxe Store banner for luxe-fragrances
+2026-05-19 19:57:54,717 - INFO - Switched to new window/tab
+2026-05-19 19:57:55,151 - INFO - Assertion passed: luxe-fragrances page successfully loaded
+2026-05-19 19:57:55,626 - INFO - Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260519_195755.png
+2026-05-19 19:57:55,664 - INFO - Navigation successful: luxe-fragrances page loaded
+2026-05-19 19:57:55,665 - INFO - Applying filter: Brand -> Gucci
+2026-05-19 19:57:55,665 - INFO - Expanding Brand filter
+2026-05-19 19:57:56,163 - INFO - Selecting brand: Gucci
+2026-05-19 19:57:59,567 - INFO - Gucci filter verified with products: ['Gucci Guilty Parfum For Him', 'Gucci Guilty Eau De Parfum For Him', 'Gucci Guilty Pour Homme Eau De Toilette']
+2026-05-19 19:57:59,779 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_Gucci_20260519_195759.png
+2026-05-19 19:57:59,813 - INFO - Filter applied successfully: Gucci
+2026-05-19 19:57:59,813 - INFO - Selecting first product card
+2026-05-19 19:58:00,558 - INFO - Switched to product tab
+2026-05-19 19:58:00,559 - INFO - Product selected from Luxe Store
+2026-05-19 19:58:03,329 - INFO - Screenshot saved at: reports/screenshots/LuxeStorePage_ProductSelected_20260519_195800.png
+2026-05-19 19:58:13,824 - INFO - No size selection needed.
+2026-05-19 19:58:14,293 - INFO - Clicked 'Add to Bag'.
+2026-05-19 19:58:14,355 - INFO - Switched to cart window/tab.
+2026-05-19 19:58:14,435 - INFO - Assertion passed: Product successfully added to cart.
+2026-05-19 19:58:15,467 - INFO - Screenshot saved at: reports/screenshots/ProductPage_AddToCart_20260519_195814.png
+2026-05-19 19:58:15,617 - INFO - Product added to cart
+2026-05-19 19:58:18,489 - INFO - Clicked bag icon.
+2026-05-19 19:58:22,847 - INFO - Screenshot saved at: reports/screenshots/CartPage_BagClicked_20260519_195820.png
+2026-05-19 19:58:22,943 - INFO - Navigated to cart page
+2026-05-19 19:58:24,942 - INFO - Clicked Proceed button.
+2026-05-19 19:58:27,158 - INFO - Screenshot saved at: reports/screenshots/CartPage_ProceedClicked_20260519_195826.png
+2026-05-19 19:58:27,205 - INFO - Clicked Proceed on cart page
+2026-05-19 19:58:28,250 - INFO - Clicked Continue as guest.
+2026-05-19 19:58:33,662 - INFO - Assertion passed: Shipping details page loaded.
+2026-05-19 19:58:33,854 - INFO - Screenshot saved at: reports/screenshots/CartPage_ContinueAsGuest_20260519_195833.png
+2026-05-19 19:58:34,172 - INFO - Continuing as guest
+2026-05-19 19:58:34,174 - INFO - Reading shipping details from Excel
+2026-05-19 19:58:34,521 - INFO - Entering Name: Yoga
+2026-05-19 19:58:35,334 - INFO - Entering Phone: 6369887216
+2026-05-19 19:58:37,659 - INFO - Entering Email: yogalakshmin24@gmail.com
+2026-05-19 19:58:39,317 - INFO - Entering Flat/House No: 391
+2026-05-19 19:58:39,911 - INFO - Entering Area: Selvapuram
+2026-05-19 19:58:40,719 - INFO - Entering Pincode: 641026
+2026-05-19 19:58:41,765 - INFO - Shipping details filled successfully from Excel
+2026-05-19 19:58:41,951 - INFO - Screenshot saved at: reports/screenshots/ShippingDetailsPage_Filled_20260519_195841.png
+2026-05-19 19:58:42,005 - INFO - Shipping details filled from Excel
+2026-05-19 19:58:42,006 - INFO - Attempting to click 'SHIP TO THIS ADDRESS' button
+2026-05-19 19:58:42,842 - INFO - Clicked 'SHIP TO THIS ADDRESS'.
+2026-05-19 19:58:42,877 - INFO - Switched to payment window/tab
+2026-05-19 19:58:47,902 - INFO - Assertion passed: Payment page successfully loaded
+2026-05-19 19:58:48,167 - INFO - Screenshot saved at: reports/screenshots/ShippingDetailsPage_ShipToAddress_20260519_195847.png
+2026-05-19 19:58:48,612 - INFO - Navigated to payment page
+2026-05-19 19:58:48,618 - INFO - Attempting to select payment method: Cash on delivery
+2026-05-19 19:58:52,624 - INFO - Clicked on Cash on delivery option
+2026-05-19 19:58:52,682 - INFO - Assertion passed: Cash on delivery option activated
+2026-05-19 19:58:52,846 - INFO - Screenshot saved at: reports/screenshots/PaymentPage_Cash_on_delivery_20260519_195852.png
+2026-05-19 19:58:52,882 - INFO - Payment method selected: Cash on delivery
+2026-05-19 19:58:52,883 - INFO - Order flow completed successfully
+2026-05-19 19:58:52,883 - INFO - =======================================
+2026-05-19 19:58:52,884 - INFO - End-to-end Nykaa test passed successfully.
