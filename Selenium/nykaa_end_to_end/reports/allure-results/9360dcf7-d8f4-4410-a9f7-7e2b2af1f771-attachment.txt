@@ -1,0 +1,11 @@
+[32mINFO    [0m automation:test_02_cart_empty.py:12 Opened base URL: https://www.nykaa.com/
+[32mINFO    [0m automation:test_02_cart_empty.py:14 --------------------------------------
+[32mINFO    [0m automation:test_02_cart_empty.py:15 STARTING TEST: test_cart_empty
+[32mINFO    [0m automation:test_02_cart_empty.py:16 --------------------------------------
+[32mINFO    [0m automation:home_page.py:117 Validating empty cart
+[32mINFO    [0m automation:home_page.py:124 Clicked bag icon
+[32mINFO    [0m automation:home_page.py:134 Assertion passed: Cart is empty
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/HomePage_EmptyCart_20260520_152441.png
+[32mINFO    [0m automation:test_02_cart_empty.py:23 --------------------------------------
+[32mINFO    [0m automation:test_02_cart_empty.py:24 TEST ENDED: Cart is empty as expected
+[32mINFO    [0m automation:test_02_cart_empty.py:25 --------------------------------------

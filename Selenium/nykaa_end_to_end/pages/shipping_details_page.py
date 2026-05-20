@@ -53,41 +53,6 @@ class ShippingDetailsPage(BasePage):
                                attachment_type=allure.attachment_type.PNG)
             raise
 
-    # def click_ship_to_this_address(self):
-    #     try:
-    #         logger.info("Attempting to click 'SHIP TO THIS ADDRESS' button")
-    #         ship_btn = self.wait.until(
-    #             EC.element_to_be_clickable((By.XPATH, '//button[text()="SHIP TO THIS ADDRESS"]'))
-    #         )
-    #         ship_btn.click()
-    #         logger.info("Clicked 'SHIP TO THIS ADDRESS'.")
-    #
-    #         self.driver.switch_to.window(self.driver.window_handles[-1])
-    #         logger.info("Switched to payment window/tab")
-    #
-    #         time.sleep(5)
-    #
-    #         # Assertion: ensure payment page is loaded
-    #         current_url = self.driver.current_url.lower()
-    #         assert "payment" in current_url or "checkout" in current_url, \
-    #             f"Payment page not loaded! Current URL: {current_url}"
-    #         logger.info("Assertion passed: Payment page successfully loaded")
-    #
-    #         screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "ShippingDetailsPage_ShipToAddress")
-    #         allure.attach.file(screenshot_path, name="ShippingDetailsPage_ShipToAddress", attachment_type=allure.attachment_type.PNG)
-    #
-    #         return PaymentPage(self.driver)
-    #
-    #     except AssertionError as ae:
-    #         logger.error(f"Assertion failed: {str(ae)}")
-    #         screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "ShippingDetailsPage_ShipToAddress_Failure")
-    #         allure.attach.file(screenshot_path, name="ShippingDetailsPage_ShipToAddress_Failure", attachment_type=allure.attachment_type.PNG)
-    #         raise
-    #     except Exception as e:
-    #         logger.error(f"Error clicking 'SHIP TO THIS ADDRESS': {str(e)}")
-    #         screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "ShippingDetailsPage_ShipToAddress_Error")
-    #         allure.attach.file(screenshot_path, name="ShippingDetailsPage_ShipToAddress_Error", attachment_type=allure.attachment_type.PNG)
-    #         raise
 
     def click_ship_to_this_address(self):
         try:
@@ -102,14 +67,12 @@ class ShippingDetailsPage(BasePage):
             # Switch only if new window exists
             if len(self.driver.window_handles) > 1:
                 self.driver.switch_to.window(self.driver.window_handles[-1])
-                logger.info("Switched to payment window/tab")
 
             time.sleep(5)
 
             current_url = self.driver.current_url.lower()
-            logger.info(f"Current URL after click: {current_url}")
 
-            # 📸 Screenshot (always)
+            # Screenshot (always)
             screenshot_path = ScreenshotUtil.capture_screenshot(
                 self.driver, "ShippingDetailsPage_ShipToAddress"
             )
@@ -119,13 +82,13 @@ class ShippingDetailsPage(BasePage):
                 attachment_type=allure.attachment_type.PNG
             )
 
-            # ✅ KEY CHANGE: No hard assertion
+            # KEY CHANGE: No hard assertion
             if "payment" in current_url or "checkout" in current_url:
                 logger.info("Payment page successfully loaded")
                 return PaymentPage(self.driver)
             else:
-                logger.info("Stayed on address page - possible validation error")
-                return self  # 🔥 THIS SAVES YOUR NEGATIVE TEST
+                logger.info("Stayed on address page - validation error(invalid pincode)")
+                return self
 
         except Exception as e:
             logger.error(f"Error clicking 'SHIP TO THIS ADDRESS': {str(e)}")

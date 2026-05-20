@@ -1,0 +1,11 @@
+[32mINFO    [0m automation:test_01_login.py:15 --------------------------------------
+[32mINFO    [0m automation:test_01_login.py:16 Signing in
+[32mINFO    [0m automation:test_01_login.py:17 --------------------------------------
+[32mINFO    [0m automation:test_01_login.py:18 Starting sign-in test for brand: 9876543210
+[32mINFO    [0m automation:login_page.py:25 Clicking Sign in button
+[32mINFO    [0m automation:login_page.py:28 Entering phone number: 9876543210
+[32mINFO    [0m automation:login_page.py:31 Clicking Send OTP
+[32mINFO    [0m automation:login_page.py:35 Navigated to Auth page
+[32mINFO    [0m automation:login_page.py:41 Clicking Get OTP
+[31m[1mERROR   [0m automation:login_page.py:53 OTP verification page did not load, OTP not generated - Nykaa may restrict OTP generation for automation
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/LoginPage_LoginFailure_20260520_152436.png

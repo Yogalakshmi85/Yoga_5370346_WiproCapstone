@@ -23,7 +23,7 @@ class ScreenshotUtil:
         driver.save_screenshot(screenshot_path)
         logger.info(f"Screenshot saved at: {screenshot_path}")
 
-        with open(screenshot_path, "rb") as image_file:
-            allure.attach(image_file.read(), name=clean_name, attachment_type=allure.attachment_type.PNG)
+        # with open(screenshot_path, "rb") as image_file:
+        #     allure.attach(image_file.read(), name=clean_name, attachment_type=allure.attachment_type.PNG)
 
         return screenshot_path

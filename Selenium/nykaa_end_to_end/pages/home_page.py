@@ -12,8 +12,8 @@ class HomePage(BasePage):
     def go_to_men(self, section_text: str) -> MenPage:
         try:
             logger.info(f"Attempting to navigate to section: {section_text}")
-            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, f"HomePage_{section_text}")
-            allure.attach.file(screenshot_path, name=f"HomePage_{section_text}",
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, f"HomePage")
+            allure.attach.file(screenshot_path, name=f"HomePage",
                                attachment_type=allure.attachment_type.PNG)
 
             men_link = self.wait.until(
@@ -60,8 +60,15 @@ class HomePage(BasePage):
 
             search_box.clear()
             search_box.send_keys(search_text)
-            logger.info("Entered search text")
 
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "Search_invalid_keys")
+            allure.attach.file(
+                screenshot_path,
+                name="Search_Error",
+                attachment_type=allure.attachment_type.PNG
+            )
+
+            logger.info("Entered search text")
             # Press Enter
             search_box.send_keys("\n")
             logger.info("Pressed Enter for search")
@@ -101,6 +108,58 @@ class HomePage(BasePage):
             allure.attach.file(
                 screenshot_path,
                 name="Search_Error_Exception",
+                attachment_type=allure.attachment_type.PNG
+            )
+            raise
+
+    def validate_empty_cart(self):
+        try:
+            logger.info("Validating empty cart")
+
+            # Click bag icon
+            bag_click = self.wait.until(
+                EC.element_to_be_clickable((By.XPATH, '//button[@id="header-bag-icon"]'))
+            )
+            bag_click.click()
+            logger.info("Clicked bag icon")
+
+            # Wait for empty cart message (Nykaa specific)
+            empty_msg = self.wait.until(
+                EC.presence_of_element_located(
+                    (By.XPATH, '//p[contains(text(),"Empty")]')
+                )
+            )
+
+            assert empty_msg.is_displayed(), "Empty cart message not displayed"
+            logger.info("Assertion passed: Cart is empty")
+
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "HomePage_EmptyCart")
+            allure.attach.file(
+                screenshot_path,
+                name="HomePage_EmptyCart",
+                attachment_type=allure.attachment_type.PNG
+            )
+
+            return True
+
+        except AssertionError as ae:
+            logger.error(f"Assertion failed: {str(ae)}")
+
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "HomePage_EmptyCart_Failure")
+            allure.attach.file(
+                screenshot_path,
+                name="HomePage_EmptyCart_Failure",
+                attachment_type=allure.attachment_type.PNG
+            )
+            raise
+
+        except Exception as e:
+            logger.error(f"Error validating empty cart: {str(e)}")
+
+            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "HomePage_EmptyCart_Error")
+            allure.attach.file(
+                screenshot_path,
+                name="HomePage_EmptyCart_Error",
                 attachment_type=allure.attachment_type.PNG
             )
             raise

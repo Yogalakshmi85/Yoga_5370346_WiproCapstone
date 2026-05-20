@@ -1,0 +1,24 @@
+[32mINFO    [0m automation:test_04_filters.py:19 --------------------------------------
+[32mINFO    [0m automation:test_04_filters.py:20 STARTING TESTING FILTER APPLICATION
+[32mINFO    [0m automation:test_04_filters.py:21 --------------------------------------
+[32mINFO    [0m automation:test_04_filters.py:22 Starting filter test for brand: InvalidBrand
+[32mINFO    [0m automation:home_page.py:14 Attempting to navigate to section: men
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/HomePage_20260520_152508.png
+[32mINFO    [0m automation:home_page.py:23 Clicked on men link
+[32mINFO    [0m automation:home_page.py:27 Switched to new window/tab
+[32mINFO    [0m automation:home_page.py:32 Assertion passed: men page successfully loaded
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/MenPage_men_20260520_152513.png
+[32mINFO    [0m automation:men_page.py:14 Attempting to navigate to Luxe Store: luxe-fragrances
+[32mINFO    [0m automation:men_page.py:23 Clicked Luxe Store banner for luxe-fragrances
+[32mINFO    [0m automation:men_page.py:27 Switched to new window/tab
+[32mINFO    [0m automation:men_page.py:32 Assertion passed: luxe-fragrances page successfully loaded
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/CategoryPage_luxe-fragrances_20260520_152517.png
+[32mINFO    [0m automation:luxe_store_page.py:15 Expanding Brand filter
+[32mINFO    [0m automation:luxe_store_page.py:21 Selecting brand: InvalidBrand
+[31m[1mERROR   [0m automation:luxe_store_page.py:45 Filter Brand for InvalidBrand not found
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/LuxeStorePage_Filter_InvalidBrand_Error_20260520_152528.png
+[32mINFO    [0m automation:test_04_filters.py:41 Assertion passed: No products for invalid brand InvalidBrand
+[32mINFO    [0m automation:screenshot_util.py:24 Screenshot saved at: reports/screenshots/Filter_InvalidBrand_20260520_152528.png
+[32mINFO    [0m automation:test_04_filters.py:45 --------------------------------------
+[32mINFO    [0m automation:test_04_filters.py:46 ENDING TESTING FILTER APPLICATION
+[32mINFO    [0m automation:test_04_filters.py:47 --------------------------------------

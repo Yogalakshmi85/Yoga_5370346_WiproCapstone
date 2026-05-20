@@ -42,7 +42,7 @@ class LuxeStorePage(BasePage):
             return True
 
         except (TimeoutException, NoSuchElementException) as e:
-            logger.error(f"Filter {filter_type} for {brand_name} not found: {str(e)}")
+            logger.error(f"Filter {filter_type} for {brand_name} not found")
             screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, f"LuxeStorePage_Filter_{brand_name}_Error")
             allure.attach.file(screenshot_path, name=f"LuxeStorePage_Filter_{brand_name}_Error",
                                attachment_type=allure.attachment_type.PNG)
