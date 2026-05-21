@@ -21,7 +21,7 @@ def test_login(driver, config, phone, expected):
 
     result = login_page.login(phone)
 
-    # SIMPLE LOGIC
+    # LOGIC
     assert result, "OTP not generated - Nykaa may restrict OTP generation for automation"
     logger.info("--------------------------------------")
     logger.info("END OF SIGNING IN TEST")

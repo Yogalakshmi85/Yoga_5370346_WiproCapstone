@@ -1,0 +1,515 @@
+2026-05-21 20:16:38,276 - INFO - ========================================
+2026-05-21 20:16:38,277 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 20:16:38,277 - INFO - Starting Behave Test Execution
+2026-05-21 20:16:39,863 - INFO - ========================================
+2026-05-21 20:16:39,863 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-21 20:16:39,864 - INFO - Browser fetched : edge
+2026-05-21 20:16:39,865 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-21 20:16:39,866 - INFO - Implicit wait fetched : 5
+2026-05-21 20:16:39,867 - INFO - Headless mode : False
+2026-05-21 20:16:39,867 - INFO - Launching Edge Browser
+2026-05-21 20:16:44,866 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 20:16:44,872 - INFO - Opened Nykaa homepage
+2026-05-21 20:16:47,287 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260521_201646.png
+2026-05-21 20:16:47,625 - INFO - Clicked Sign in button
+2026-05-21 20:16:48,436 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260521_201647.png
+2026-05-21 20:16:48,848 - INFO - Entered phone number: 6369887216
+2026-05-21 20:16:49,784 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260521_201648.png
+2026-05-21 20:16:51,665 - INFO - Clicked Send OTP
+2026-05-21 20:16:52,500 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260521_201651.png
+2026-05-21 20:16:53,068 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-21 20:16:53,314 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260521_201653.png
+2026-05-21 20:16:55,174 - INFO - Assertion passed: OTP click was blocked (expected)
+2026-05-21 20:16:55,405 - INFO - Screenshot saved at: reports/screenshots/Get_OTP_Blocked_20260521_201655.png
+2026-05-21 20:16:55,987 - INFO - Assertion passed: OTP verification page displayed
+2026-05-21 20:16:56,223 - INFO - Screenshot saved at: reports/screenshots/OTP_Verification_Page_20260521_201655.png
+2026-05-21 20:16:56,230 - INFO - Scenario Status : Status.passed
+2026-05-21 20:16:56,231 - INFO - SCENARIO PASSED : Verify OTP page load
+2026-05-21 20:16:58,971 - INFO - Browser Closed Successfully
+2026-05-21 20:16:58,972 - INFO - ========================================
+2026-05-21 20:16:59,112 - INFO - Behave Execution Completed with status code : 0
+2026-05-21 20:16:59,112 - INFO - Generating Allure HTML Report
+2026-05-21 20:17:03,486 - INFO - Allure Report Generated with status code : 0
+2026-05-21 20:17:03,486 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 20:17:03,487 - INFO - ========================================
+2026-05-21 23:03:46,452 - INFO - ========================================
+2026-05-21 23:03:46,453 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 23:03:46,453 - INFO - Deleting old allure-results folder
+2026-05-21 23:03:46,470 - INFO - Deleting old allure-report folder
+2026-05-21 23:10:34,193 - INFO - ========================================
+2026-05-21 23:10:34,193 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 23:10:34,194 - INFO - Deleting old allure-report folder
+2026-05-21 23:10:34,293 - INFO - Starting Behave Test Execution
+2026-05-21 23:10:36,625 - INFO - ========================================
+2026-05-21 23:10:36,626 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-21 23:10:36,627 - INFO - Browser fetched : edge
+2026-05-21 23:10:36,627 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-21 23:10:36,627 - INFO - Implicit wait fetched : 5
+2026-05-21 23:10:36,628 - INFO - Headless mode : False
+2026-05-21 23:10:36,628 - INFO - Launching Edge Browser
+2026-05-21 23:10:47,891 - INFO - Browser Opened & Maximized Successfully
+2026-05-21 23:10:47,913 - INFO - Opened Nykaa homepage
+2026-05-21 23:10:49,247 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260521_231048.png
+2026-05-21 23:10:49,951 - INFO - Clicked Sign in button
+2026-05-21 23:10:50,956 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260521_231050.png
+2026-05-21 23:10:52,831 - INFO - Entered phone number: 6369887216
+2026-05-21 23:10:53,864 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260521_231052.png
+2026-05-21 23:10:55,864 - INFO - Clicked Send OTP
+2026-05-21 23:10:56,320 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260521_231056.png
+2026-05-21 23:10:56,831 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-21 23:10:57,157 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260521_231056.png
+2026-05-21 23:10:59,666 - INFO - OTP Verification page displayed (UI flow successful)
+2026-05-21 23:10:59,918 - INFO - Screenshot saved at: reports/screenshots/OTP_Verification_Page_20260521_231059.png
+2026-05-21 23:11:32,956 - ERROR - Assertion failed: OTP verification page did not load
+2026-05-21 23:11:33,057 - INFO - Scenario Status : Status.failed
+2026-05-21 23:11:33,111 - ERROR - SCENARIO FAILED : Verify OTP page load
+2026-05-21 23:11:33,297 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260521_231133.png
+2026-05-21 23:11:33,312 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260521_231133.png
+2026-05-21 23:11:37,218 - INFO - Browser Closed Successfully
+2026-05-21 23:11:37,219 - INFO - ========================================
+2026-05-21 23:11:37,354 - INFO - Behave Execution Completed with status code : 1
+2026-05-21 23:11:37,354 - INFO - Generating Allure HTML Report
+2026-05-21 23:11:43,071 - INFO - Allure Report Generated with status code : 0
+2026-05-21 23:11:43,071 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 23:11:43,071 - INFO - ========================================
+2026-05-21 23:56:39,942 - INFO - ========================================
+2026-05-21 23:56:39,944 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 23:56:39,945 - INFO - Deleting old allure-results folder
+2026-05-21 23:56:39,972 - INFO - Deleting old allure-report folder
+2026-05-21 23:56:40,046 - INFO - Starting Behave Test Execution
+2026-05-21 23:56:42,159 - INFO - Behave Execution Completed with status code : 1
+2026-05-21 23:56:42,160 - INFO - Generating Allure HTML Report
+2026-05-21 23:56:47,252 - INFO - Allure Report Generated with status code : 0
+2026-05-21 23:56:47,253 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 23:56:47,254 - INFO - ========================================
+2026-05-21 23:57:57,635 - INFO - ========================================
+2026-05-21 23:57:57,636 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 23:57:57,637 - INFO - Deleting old allure-results folder
+2026-05-21 23:57:57,639 - INFO - Deleting old allure-report folder
+2026-05-21 23:57:57,694 - INFO - Starting Behave Test Execution
+2026-05-21 23:57:59,356 - INFO - Behave Execution Completed with status code : 1
+2026-05-21 23:57:59,357 - INFO - Generating Allure HTML Report
+2026-05-21 23:58:03,822 - INFO - Allure Report Generated with status code : 0
+2026-05-21 23:58:03,823 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 23:58:03,823 - INFO - ========================================
+2026-05-21 23:59:01,748 - INFO - ========================================
+2026-05-21 23:59:01,748 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 23:59:01,749 - INFO - Deleting old allure-results folder
+2026-05-21 23:59:01,751 - INFO - Deleting old allure-report folder
+2026-05-21 23:59:01,803 - INFO - Starting Behave Test Execution
+2026-05-21 23:59:03,366 - INFO - Behave Execution Completed with status code : 1
+2026-05-21 23:59:03,367 - INFO - Generating Allure HTML Report
+2026-05-21 23:59:08,030 - INFO - Allure Report Generated with status code : 0
+2026-05-21 23:59:08,032 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 23:59:08,033 - INFO - ========================================
+2026-05-21 23:59:44,672 - INFO - ========================================
+2026-05-21 23:59:44,673 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-21 23:59:44,674 - INFO - Deleting old allure-results folder
+2026-05-21 23:59:44,675 - INFO - Deleting old allure-report folder
+2026-05-21 23:59:44,717 - INFO - Starting Behave Test Execution
+2026-05-21 23:59:46,578 - INFO - Behave Execution Completed with status code : 1
+2026-05-21 23:59:46,579 - INFO - Generating Allure HTML Report
+2026-05-21 23:59:50,809 - INFO - Allure Report Generated with status code : 0
+2026-05-21 23:59:50,810 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-21 23:59:50,810 - INFO - ========================================
+2026-05-22 00:03:35,283 - INFO - ========================================
+2026-05-22 00:03:35,284 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 00:03:35,285 - INFO - Deleting old allure-results folder
+2026-05-22 00:03:35,287 - INFO - Deleting old allure-report folder
+2026-05-22 00:03:35,351 - INFO - Starting Behave Test Execution
+2026-05-22 00:03:36,919 - INFO - ========================================
+2026-05-22 00:03:36,922 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-22 00:03:36,923 - INFO - Browser fetched : edge
+2026-05-22 00:03:36,924 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:03:36,927 - INFO - Implicit wait fetched : 5
+2026-05-22 00:03:36,929 - INFO - Headless mode : False
+2026-05-22 00:03:36,931 - INFO - Launching Edge Browser
+2026-05-22 00:03:42,267 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:03:42,277 - INFO - Opened Nykaa homepage
+2026-05-22 00:03:45,402 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_000343.png
+2026-05-22 00:03:46,844 - INFO - Clicked Sign in button
+2026-05-22 00:03:49,195 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260522_000348.png
+2026-05-22 00:03:49,675 - INFO - Entered phone number: 6369887216
+2026-05-22 00:03:50,638 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260522_000349.png
+2026-05-22 00:03:53,505 - INFO - Clicked Send OTP
+2026-05-22 00:03:54,004 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260522_000353.png
+2026-05-22 00:03:54,639 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-22 00:03:55,030 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260522_000354.png
+2026-05-22 00:03:57,160 - INFO - OTP Verification page displayed (UI flow successful)
+2026-05-22 00:03:57,406 - INFO - Screenshot saved at: reports/screenshots/OTP_Verification_Page_20260522_000357.png
+2026-05-22 00:04:30,292 - ERROR - Assertion failed: OTP verification page did not load
+2026-05-22 00:04:30,303 - INFO - Scenario Status : Status.failed
+2026-05-22 00:04:30,303 - ERROR - SCENARIO FAILED : Verify OTP page load
+2026-05-22 00:04:30,664 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260522_000430.png
+2026-05-22 00:04:30,665 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260522_000430.png
+2026-05-22 00:04:33,383 - INFO - Browser Closed Successfully
+2026-05-22 00:04:33,384 - INFO - ========================================
+2026-05-22 00:04:33,408 - INFO - ========================================
+2026-05-22 00:04:33,409 - INFO - STARTING SCENARIO : Search for a product and validate cart -- @1.1 
+2026-05-22 00:04:33,410 - INFO - Browser fetched : edge
+2026-05-22 00:04:33,412 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:04:33,412 - INFO - Implicit wait fetched : 5
+2026-05-22 00:04:33,413 - INFO - Headless mode : False
+2026-05-22 00:04:33,416 - INFO - Launching Edge Browser
+2026-05-22 00:04:37,734 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:04:37,744 - INFO - Opened Nykaa homepage
+2026-05-22 00:04:40,266 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_000439.png
+2026-05-22 00:04:40,372 - INFO - Searching for product: @@@@
+2026-05-22 00:04:42,187 - INFO - Screenshot saved at: reports/screenshots/Search_invalid_keys_20260522_000441.png
+2026-05-22 00:04:42,254 - INFO - Entered search text
+2026-05-22 00:04:45,735 - INFO - Pressed Enter for search
+2026-05-22 00:04:45,852 - INFO - Assertion passed: Error message displayed
+2026-05-22 00:04:46,201 - INFO - Screenshot saved at: reports/screenshots/Search_Error_20260522_000445.png
+2026-05-22 00:04:46,213 - INFO - Searched for product: @@@@
+2026-05-22 00:04:46,571 - INFO - Screenshot saved at: reports/screenshots/Search_@@@@_20260522_000446.png
+2026-05-22 00:04:46,583 - ERROR - Assertion failed: Expected error message for @@@@, but got True
+2026-05-22 00:04:46,588 - INFO - Scenario Status : Status.failed
+2026-05-22 00:04:46,589 - ERROR - SCENARIO FAILED : Search for a product and validate cart -- @1.1 
+2026-05-22 00:04:46,876 - INFO - Screenshot saved at: reports/screenshots/Search_for_a_product_and_validate_cart_--_@1.1__20260522_000446.png
+2026-05-22 00:04:46,877 - INFO - Screenshot Saved : reports/screenshots/Search_for_a_product_and_validate_cart_--_@1.1__20260522_000446.png
+2026-05-22 00:04:49,840 - INFO - Browser Closed Successfully
+2026-05-22 00:04:49,841 - INFO - ========================================
+2026-05-22 00:04:49,849 - INFO - ========================================
+2026-05-22 00:04:49,850 - INFO - STARTING SCENARIO : Search for a product and validate cart -- @1.2 
+2026-05-22 00:04:49,851 - INFO - Browser fetched : edge
+2026-05-22 00:04:49,851 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:04:49,852 - INFO - Implicit wait fetched : 5
+2026-05-22 00:04:49,852 - INFO - Headless mode : False
+2026-05-22 00:04:49,853 - INFO - Launching Edge Browser
+2026-05-22 00:04:55,126 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:04:55,132 - INFO - Opened Nykaa homepage
+2026-05-22 00:04:57,599 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_000456.png
+2026-05-22 00:04:57,608 - INFO - Searching for product: serums
+2026-05-22 00:04:59,793 - INFO - Screenshot saved at: reports/screenshots/Search_invalid_keys_20260522_000459.png
+2026-05-22 00:04:59,803 - INFO - Entered search text
+2026-05-22 00:05:03,240 - INFO - Pressed Enter for search
+2026-05-22 00:05:14,260 - ERROR - Error during search: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff668c2e295+e0f5]
+	msedgedriver!GetHandleVerifier [0x7ff668c2e2f4+e154]
+	msedgedriver!GetHandleVerifier [0x7ff668fa8bca+388a2a]
+	msedgedriver!(No symbol) [0x7ff6689a3e3c]
+	msedgedriver!(No symbol) [0x7ff6689a40a5]
+	msedgedriver!(No symbol) [0x7ff6689e1357]
+	msedgedriver!(No symbol) [0x7ff66899aaa7]
+	msedgedriver!(No symbol) [0x7ff6689df0b2]
+	msedgedriver!(No symbol) [0x7ff66899a2ec]
+	msedgedriver!(No symbol) [0x7ff668999546]
+	msedgedriver!(No symbol) [0x7ff66899a113]
+	msedgedriver!(No symbol) [0x7ff668a62519]
+	msedgedriver!(No symbol) [0x7ff668a5ec93]
+	msedgedriver!(No symbol) [0x7ff668a6f182]
+	msedgedriver!GetHandleVerifier [0x7ff668c4aa68+2a8c8]
+	msedgedriver!GetHandleVerifier [0x7ff668c532f6+33156]
+	msedgedriver!GetHandleVerifier [0x7ff668c35724+15584]
+	msedgedriver!GetHandleVerifier [0x7ff668c35845+156a5]
+	msedgedriver!GetHandleVerifier [0x7ff668c22b63+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ff908e1e957+17]
+	ntdll!RtlUserThreadStart [0x7ff90a8e427c+2c]
+
+2026-05-22 00:05:14,668 - INFO - Screenshot saved at: reports/screenshots/Search_Error_Exception_20260522_000514.png
+2026-05-22 00:05:14,683 - ERROR - Timeout during search: Message: 
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff668c2e295+e0f5]
+	msedgedriver!GetHandleVerifier [0x7ff668c2e2f4+e154]
+	msedgedriver!GetHandleVerifier [0x7ff668fa8bca+388a2a]
+	msedgedriver!(No symbol) [0x7ff6689a3e3c]
+	msedgedriver!(No symbol) [0x7ff6689a40a5]
+	msedgedriver!(No symbol) [0x7ff6689e1357]
+	msedgedriver!(No symbol) [0x7ff66899aaa7]
+	msedgedriver!(No symbol) [0x7ff6689df0b2]
+	msedgedriver!(No symbol) [0x7ff66899a2ec]
+	msedgedriver!(No symbol) [0x7ff668999546]
+	msedgedriver!(No symbol) [0x7ff66899a113]
+	msedgedriver!(No symbol) [0x7ff668a62519]
+	msedgedriver!(No symbol) [0x7ff668a5ec93]
+	msedgedriver!(No symbol) [0x7ff668a6f182]
+	msedgedriver!GetHandleVerifier [0x7ff668c4aa68+2a8c8]
+	msedgedriver!GetHandleVerifier [0x7ff668c532f6+33156]
+	msedgedriver!GetHandleVerifier [0x7ff668c35724+15584]
+	msedgedriver!GetHandleVerifier [0x7ff668c35845+156a5]
+	msedgedriver!GetHandleVerifier [0x7ff668c22b63+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ff908e1e957+17]
+	ntdll!RtlUserThreadStart [0x7ff90a8e427c+2c]
+
+2026-05-22 00:05:14,801 - INFO - Scenario Status : Status.error
+2026-05-22 00:05:14,801 - INFO - SCENARIO PASSED : Search for a product and validate cart -- @1.2 
+2026-05-22 00:05:18,664 - INFO - Browser Closed Successfully
+2026-05-22 00:05:18,665 - INFO - ========================================
+2026-05-22 00:05:18,808 - INFO - Behave Execution Completed with status code : 1
+2026-05-22 00:05:18,808 - INFO - Generating Allure HTML Report
+2026-05-22 00:05:23,666 - INFO - Allure Report Generated with status code : 0
+2026-05-22 00:05:23,666 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-22 00:05:23,667 - INFO - ========================================
+2026-05-22 00:19:20,115 - INFO - ========================================
+2026-05-22 00:19:20,116 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 00:19:20,116 - INFO - Deleting old allure-results folder
+2026-05-22 00:19:20,140 - INFO - Deleting old allure-report folder
+2026-05-22 00:19:20,213 - INFO - Starting Behave Test Execution
+2026-05-22 00:19:21,797 - INFO - ========================================
+2026-05-22 00:19:21,798 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-22 00:19:21,799 - INFO - Browser fetched : edge
+2026-05-22 00:19:21,800 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:19:21,800 - INFO - Implicit wait fetched : 5
+2026-05-22 00:19:21,801 - INFO - Headless mode : False
+2026-05-22 00:19:21,802 - INFO - Launching Edge Browser
+2026-05-22 00:19:26,846 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:19:26,852 - INFO - Opened Nykaa homepage
+2026-05-22 00:19:29,653 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_001928.png
+2026-05-22 00:19:30,253 - INFO - Clicked Sign in button
+2026-05-22 00:19:31,281 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260522_001930.png
+2026-05-22 00:19:33,399 - INFO - Entered phone number: 6369887216
+2026-05-22 00:19:34,288 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260522_001933.png
+2026-05-22 00:19:35,847 - INFO - Clicked Send OTP
+2026-05-22 00:19:36,356 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260522_001936.png
+2026-05-22 00:19:36,989 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-22 00:19:37,244 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260522_001937.png
+2026-05-22 00:19:39,302 - INFO - OTP click was blocked (expected negative case)
+2026-05-22 00:19:39,582 - INFO - Screenshot saved at: reports/screenshots/Get_OTP_Blocked_20260522_001939.png
+2026-05-22 00:20:45,653 - ERROR - Assertion failed: OTP verification page did not load
+2026-05-22 00:20:45,658 - INFO - Scenario Status : Status.failed
+2026-05-22 00:20:45,659 - ERROR - SCENARIO FAILED : Verify OTP page load
+2026-05-22 00:20:46,003 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260522_002045.png
+2026-05-22 00:20:46,006 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260522_002045.png
+2026-05-22 00:21:07,004 - INFO - Browser Closed Successfully
+2026-05-22 00:21:07,006 - INFO - ========================================
+2026-05-22 00:21:07,019 - INFO - ========================================
+2026-05-22 00:21:07,027 - INFO - STARTING SCENARIO : Search for a product and validate cart -- @1.1 
+2026-05-22 00:21:07,030 - INFO - Browser fetched : edge
+2026-05-22 00:21:07,032 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:21:07,033 - INFO - Implicit wait fetched : 5
+2026-05-22 00:21:07,035 - INFO - Headless mode : False
+2026-05-22 00:21:07,036 - INFO - Launching Edge Browser
+2026-05-22 00:21:12,761 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:21:12,766 - INFO - Opened Nykaa homepage
+2026-05-22 00:21:16,344 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_002114.png
+2026-05-22 00:21:16,359 - INFO - Searching for product: @@@@
+2026-05-22 00:21:17,035 - INFO - Entered search text
+2026-05-22 00:21:18,753 - INFO - Pressed Enter for search
+2026-05-22 00:21:19,289 - INFO - Assertion passed: Error message displayed for invalid search
+2026-05-22 00:21:19,629 - INFO - Screenshot saved at: reports/screenshots/Search_Invalid_@@@@_20260522_002119.png
+2026-05-22 00:21:19,634 - INFO - Searched for product: @@@@
+2026-05-22 00:21:19,637 - INFO - Assertion passed: Invalid search error message displayed
+2026-05-22 00:21:19,648 - INFO - Scenario Status : Status.error
+2026-05-22 00:21:19,649 - INFO - SCENARIO PASSED : Search for a product and validate cart -- @1.1 
+2026-05-22 00:21:22,477 - INFO - Browser Closed Successfully
+2026-05-22 00:21:22,479 - INFO - ========================================
+2026-05-22 00:21:22,489 - INFO - ========================================
+2026-05-22 00:21:22,490 - INFO - STARTING SCENARIO : Search for a product and validate cart -- @1.2 
+2026-05-22 00:21:22,492 - INFO - Browser fetched : edge
+2026-05-22 00:21:22,493 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:21:22,495 - INFO - Implicit wait fetched : 5
+2026-05-22 00:21:22,496 - INFO - Headless mode : False
+2026-05-22 00:21:22,497 - INFO - Launching Edge Browser
+2026-05-22 00:21:27,887 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:21:27,890 - INFO - Opened Nykaa homepage
+2026-05-22 00:21:30,165 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_002129.png
+2026-05-22 00:21:30,199 - INFO - Searching for product: serums
+2026-05-22 00:21:31,582 - INFO - Entered search text
+2026-05-22 00:21:35,644 - INFO - Pressed Enter for search
+2026-05-22 00:21:46,778 - INFO - No error message found, checking for valid results...
+2026-05-22 00:21:46,791 - INFO - Assertion passed: URL contains serums
+2026-05-22 00:21:47,279 - INFO - Screenshot saved at: reports/screenshots/Search_Valid_serums_20260522_002146.png
+2026-05-22 00:21:47,339 - INFO - Searched for product: serums
+2026-05-22 00:21:47,364 - INFO - Assertion passed: Product results displayed
+2026-05-22 00:21:47,377 - INFO - Scenario Status : Status.error
+2026-05-22 00:21:47,378 - INFO - SCENARIO PASSED : Search for a product and validate cart -- @1.2 
+2026-05-22 00:21:51,666 - INFO - Browser Closed Successfully
+2026-05-22 00:21:51,667 - INFO - ========================================
+2026-05-22 00:21:51,804 - INFO - Behave Execution Completed with status code : 1
+2026-05-22 00:21:51,805 - INFO - Generating Allure HTML Report
+2026-05-22 00:21:56,812 - INFO - Allure Report Generated with status code : 0
+2026-05-22 00:21:56,813 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-22 00:21:56,814 - INFO - ========================================
+2026-05-22 00:26:50,638 - INFO - ========================================
+2026-05-22 00:26:50,639 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 00:26:50,640 - INFO - Deleting old allure-results folder
+2026-05-22 00:26:50,660 - INFO - Deleting old allure-report folder
+2026-05-22 00:26:50,719 - INFO - Starting Behave Test Execution
+2026-05-22 00:26:52,323 - INFO - ========================================
+2026-05-22 00:26:52,325 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-22 00:26:52,325 - INFO - Browser fetched : edge
+2026-05-22 00:26:52,326 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:26:52,327 - INFO - Implicit wait fetched : 5
+2026-05-22 00:26:52,328 - INFO - Headless mode : False
+2026-05-22 00:26:52,328 - INFO - Launching Edge Browser
+2026-05-22 00:26:57,507 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:26:57,514 - INFO - Opened Nykaa homepage
+2026-05-22 00:27:01,706 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_002658.png
+2026-05-22 00:27:03,848 - INFO - Clicked Sign in button
+2026-05-22 00:27:04,703 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260522_002703.png
+2026-05-22 00:27:05,374 - INFO - Entered phone number: 6369887216
+2026-05-22 00:27:06,176 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260522_002705.png
+2026-05-22 00:27:08,299 - INFO - Clicked Send OTP
+2026-05-22 00:27:08,786 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260522_002708.png
+2026-05-22 00:27:11,594 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-22 00:27:12,010 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260522_002711.png
+2026-05-22 00:27:12,530 - INFO - OTP Verification page displayed (UI flow successful)
+2026-05-22 00:27:12,772 - INFO - Screenshot saved at: reports/screenshots/OTP_Verification_Page_20260522_002712.png
+2026-05-22 00:27:45,568 - ERROR - Assertion failed: OTP verification page did not load
+2026-05-22 00:27:45,573 - INFO - Scenario Status : Status.failed
+2026-05-22 00:27:45,574 - ERROR - SCENARIO FAILED : Verify OTP page load
+2026-05-22 00:27:45,762 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260522_002745.png
+2026-05-22 00:27:45,771 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260522_002745.png
+2026-05-22 00:27:48,762 - INFO - Browser Closed Successfully
+2026-05-22 00:27:48,762 - INFO - ========================================
+2026-05-22 00:27:48,774 - INFO - ========================================
+2026-05-22 00:27:48,775 - INFO - STARTING SCENARIO : Search for a product and validate cart -- @1.1 
+2026-05-22 00:27:48,775 - INFO - Browser fetched : edge
+2026-05-22 00:27:48,775 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:27:48,776 - INFO - Implicit wait fetched : 5
+2026-05-22 00:27:48,776 - INFO - Headless mode : False
+2026-05-22 00:27:48,776 - INFO - Launching Edge Browser
+2026-05-22 00:27:53,393 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:27:53,420 - INFO - Opened Nykaa homepage
+2026-05-22 00:27:56,004 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_002754.png
+2026-05-22 00:27:56,017 - INFO - Searching for product: @@@@
+2026-05-22 00:27:57,194 - INFO - Entered search text
+2026-05-22 00:27:58,667 - INFO - Pressed Enter for search
+2026-05-22 00:27:59,135 - INFO - Assertion passed: Error message displayed for invalid search
+2026-05-22 00:27:59,487 - INFO - Screenshot saved at: reports/screenshots/Search_Invalid_@@@@_20260522_002759.png
+2026-05-22 00:27:59,494 - INFO - Searched for product: @@@@
+2026-05-22 00:27:59,497 - INFO - Assertion passed: Invalid search error message displayed
+2026-05-22 00:27:59,499 - INFO - Validating empty cart
+2026-05-22 00:28:00,070 - INFO - Clicked bag icon
+2026-05-22 00:28:00,286 - INFO - Assertion passed: Cart is empty
+2026-05-22 00:28:00,534 - INFO - Screenshot saved at: reports/screenshots/HomePage_EmptyCart_20260522_002800.png
+2026-05-22 00:28:00,539 - INFO - Assertion passed: Cart is empty
+2026-05-22 00:28:00,789 - INFO - Screenshot saved at: reports/screenshots/Empty_Cart_20260522_002800.png
+2026-05-22 00:28:00,797 - INFO - Scenario Status : Status.passed
+2026-05-22 00:28:00,798 - INFO - SCENARIO PASSED : Search for a product and validate cart -- @1.1 
+2026-05-22 00:28:03,536 - INFO - Browser Closed Successfully
+2026-05-22 00:28:03,537 - INFO - ========================================
+2026-05-22 00:28:03,541 - INFO - ========================================
+2026-05-22 00:28:03,542 - INFO - STARTING SCENARIO : Search for a product and validate cart -- @1.2 
+2026-05-22 00:28:03,542 - INFO - Browser fetched : edge
+2026-05-22 00:28:03,542 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:28:03,542 - INFO - Implicit wait fetched : 5
+2026-05-22 00:28:03,543 - INFO - Headless mode : False
+2026-05-22 00:28:03,543 - INFO - Launching Edge Browser
+2026-05-22 00:28:08,025 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:28:08,034 - INFO - Opened Nykaa homepage
+2026-05-22 00:28:11,423 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_002809.png
+2026-05-22 00:28:11,434 - INFO - Searching for product: serums
+2026-05-22 00:28:12,839 - INFO - Entered search text
+2026-05-22 00:28:15,702 - INFO - Pressed Enter for search
+2026-05-22 00:28:27,612 - INFO - No error message found, checking for valid results...
+2026-05-22 00:28:27,627 - INFO - Assertion passed: URL contains serums
+2026-05-22 00:28:28,040 - INFO - Screenshot saved at: reports/screenshots/Search_Valid_serums_20260522_002827.png
+2026-05-22 00:28:28,052 - INFO - Searched for product: serums
+2026-05-22 00:28:28,060 - INFO - Assertion passed: Product results displayed
+2026-05-22 00:28:28,065 - INFO - Validating empty cart
+2026-05-22 00:28:28,552 - INFO - Clicked bag icon
+2026-05-22 00:28:28,965 - INFO - Assertion passed: Cart is empty
+2026-05-22 00:28:29,306 - INFO - Screenshot saved at: reports/screenshots/HomePage_EmptyCart_20260522_002828.png
+2026-05-22 00:28:29,324 - INFO - Assertion passed: Cart is empty
+2026-05-22 00:28:29,672 - INFO - Screenshot saved at: reports/screenshots/Empty_Cart_20260522_002829.png
+2026-05-22 00:28:29,682 - INFO - Scenario Status : Status.passed
+2026-05-22 00:28:29,683 - INFO - SCENARIO PASSED : Search for a product and validate cart -- @1.2 
+2026-05-22 00:28:33,371 - INFO - Browser Closed Successfully
+2026-05-22 00:28:33,372 - INFO - ========================================
+2026-05-22 00:28:33,493 - INFO - Behave Execution Completed with status code : 1
+2026-05-22 00:28:33,494 - INFO - Generating Allure HTML Report
+2026-05-22 00:28:38,164 - INFO - Allure Report Generated with status code : 0
+2026-05-22 00:28:38,165 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-22 00:28:38,165 - INFO - ========================================
+2026-05-22 00:36:00,888 - INFO - ========================================
+2026-05-22 00:36:00,889 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-22 00:36:00,890 - INFO - Deleting old allure-results folder
+2026-05-22 00:36:00,915 - INFO - Deleting old allure-report folder
+2026-05-22 00:36:00,993 - INFO - Starting Behave Test Execution
+2026-05-22 00:36:02,673 - INFO - ========================================
+2026-05-22 00:36:02,675 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-22 00:36:02,676 - INFO - Browser fetched : edge
+2026-05-22 00:36:02,676 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:36:02,678 - INFO - Implicit wait fetched : 5
+2026-05-22 00:36:02,679 - INFO - Headless mode : False
+2026-05-22 00:36:02,680 - INFO - Launching Edge Browser
+2026-05-22 00:36:07,568 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:36:07,576 - INFO - Opened Nykaa homepage
+2026-05-22 00:36:11,956 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_003609.png
+2026-05-22 00:36:12,382 - INFO - Clicked Sign in button
+2026-05-22 00:36:14,673 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260522_003613.png
+2026-05-22 00:36:15,138 - INFO - Entered phone number: 6369887216
+2026-05-22 00:36:16,313 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260522_003615.png
+2026-05-22 00:36:18,844 - INFO - Clicked Send OTP
+2026-05-22 00:36:19,617 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260522_003619.png
+2026-05-22 00:36:21,155 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-22 00:36:22,529 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260522_003622.png
+2026-05-22 00:36:23,128 - INFO - OTP Verification page displayed (UI flow successful)
+2026-05-22 00:36:23,356 - INFO - Screenshot saved at: reports/screenshots/OTP_Verification_Page_20260522_003623.png
+2026-05-22 00:36:56,172 - ERROR - Assertion failed: OTP verification page did not load
+2026-05-22 00:36:56,180 - INFO - Scenario Status : Status.failed
+2026-05-22 00:36:56,181 - ERROR - SCENARIO FAILED : Verify OTP page load
+2026-05-22 00:36:56,357 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260522_003656.png
+2026-05-22 00:36:56,359 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260522_003656.png
+2026-05-22 00:36:59,611 - INFO - Browser Closed Successfully
+2026-05-22 00:36:59,613 - INFO - ========================================
+2026-05-22 00:36:59,650 - INFO - ========================================
+2026-05-22 00:36:59,653 - INFO - STARTING SCENARIO : Search for a product -- @1.1 
+2026-05-22 00:36:59,655 - INFO - Browser fetched : edge
+2026-05-22 00:36:59,656 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:36:59,657 - INFO - Implicit wait fetched : 5
+2026-05-22 00:36:59,658 - INFO - Headless mode : False
+2026-05-22 00:36:59,658 - INFO - Launching Edge Browser
+2026-05-22 00:37:04,140 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:37:04,143 - INFO - Opened Nykaa homepage
+2026-05-22 00:37:07,604 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_003705.png
+2026-05-22 00:37:07,614 - INFO - Searching for product: @@@@
+2026-05-22 00:37:08,762 - INFO - Entered search text
+2026-05-22 00:37:10,413 - INFO - Pressed Enter for search
+2026-05-22 00:37:10,709 - INFO - Assertion passed: Error message displayed for invalid search
+2026-05-22 00:37:11,062 - INFO - Screenshot saved at: reports/screenshots/Search_Invalid_@@@@_20260522_003710.png
+2026-05-22 00:37:11,069 - INFO - Searched for product: @@@@
+2026-05-22 00:37:11,076 - INFO - Assertion passed: Invalid search error message displayed
+2026-05-22 00:37:11,077 - INFO - Scenario Status : Status.passed
+2026-05-22 00:37:11,078 - INFO - SCENARIO PASSED : Search for a product -- @1.1 
+2026-05-22 00:37:13,843 - INFO - Browser Closed Successfully
+2026-05-22 00:37:13,844 - INFO - ========================================
+2026-05-22 00:37:13,851 - INFO - ========================================
+2026-05-22 00:37:13,852 - INFO - STARTING SCENARIO : Search for a product -- @1.2 
+2026-05-22 00:37:13,854 - INFO - Browser fetched : edge
+2026-05-22 00:37:13,855 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:37:13,855 - INFO - Implicit wait fetched : 5
+2026-05-22 00:37:13,856 - INFO - Headless mode : False
+2026-05-22 00:37:13,856 - INFO - Launching Edge Browser
+2026-05-22 00:37:18,615 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:37:18,626 - INFO - Opened Nykaa homepage
+2026-05-22 00:37:22,294 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_003719.png
+2026-05-22 00:37:22,420 - INFO - Searching for product: serums
+2026-05-22 00:37:23,608 - INFO - Entered search text
+2026-05-22 00:37:28,272 - INFO - Pressed Enter for search
+2026-05-22 00:37:39,074 - INFO - No error message found, checking for valid results...
+2026-05-22 00:37:39,088 - INFO - Assertion passed: URL contains serums
+2026-05-22 00:37:39,481 - INFO - Screenshot saved at: reports/screenshots/Search_Valid_serums_20260522_003739.png
+2026-05-22 00:37:39,492 - INFO - Searched for product: serums
+2026-05-22 00:37:39,498 - INFO - Assertion passed: Product results displayed
+2026-05-22 00:37:39,503 - INFO - Scenario Status : Status.passed
+2026-05-22 00:37:39,506 - INFO - SCENARIO PASSED : Search for a product -- @1.2 
+2026-05-22 00:37:43,454 - INFO - Browser Closed Successfully
+2026-05-22 00:37:43,455 - INFO - ========================================
+2026-05-22 00:37:43,461 - INFO - ========================================
+2026-05-22 00:37:43,462 - INFO - STARTING SCENARIO : Validate empty cart
+2026-05-22 00:37:43,463 - INFO - Browser fetched : edge
+2026-05-22 00:37:43,465 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-22 00:37:43,465 - INFO - Implicit wait fetched : 5
+2026-05-22 00:37:43,466 - INFO - Headless mode : False
+2026-05-22 00:37:43,467 - INFO - Launching Edge Browser
+2026-05-22 00:37:45,589 - INFO - Browser Opened & Maximized Successfully
+2026-05-22 00:37:45,594 - INFO - Opened Nykaa homepage
+2026-05-22 00:37:50,184 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260522_003747.png
+2026-05-22 00:37:50,194 - INFO - Validating empty cart
+2026-05-22 00:37:50,861 - INFO - Clicked bag icon
+2026-05-22 00:37:51,182 - INFO - Assertion passed: Cart is empty
+2026-05-22 00:37:52,340 - INFO - Screenshot saved at: reports/screenshots/HomePage_EmptyCart_20260522_003751.png
+2026-05-22 00:37:52,443 - INFO - Assertion passed: Cart is empty
+2026-05-22 00:37:54,372 - INFO - Screenshot saved at: reports/screenshots/Empty_Cart_20260522_003752.png
+2026-05-22 00:37:54,379 - INFO - Scenario Status : Status.passed
+2026-05-22 00:37:54,379 - INFO - SCENARIO PASSED : Validate empty cart
+2026-05-22 00:37:57,388 - INFO - Browser Closed Successfully
+2026-05-22 00:37:57,389 - INFO - ========================================
+2026-05-22 00:37:57,526 - INFO - Behave Execution Completed with status code : 1
+2026-05-22 00:37:57,526 - INFO - Generating Allure HTML Report
+2026-05-22 00:38:02,732 - INFO - Allure Report Generated with status code : 0
+2026-05-22 00:38:02,733 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-22 00:38:02,734 - INFO - ========================================

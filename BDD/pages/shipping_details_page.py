@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
 from pages.payment_page import PaymentPage
-from utils.excel_reader import ExcelReader
+from utils.csv_reader import CSVReader
 from utils.logger import LogGen
 from utils.screenshot_util import ScreenshotUtil
 import allure

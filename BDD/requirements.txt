@@ -1,0 +1,6 @@
+behave
+webdriver-manager
+allure-behave
+configparser
+gherkin-official
+selenium
