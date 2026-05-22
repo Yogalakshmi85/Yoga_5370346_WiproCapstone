@@ -14,22 +14,18 @@ logger = LogGen.loggen()
 class CartPage(BasePage):
     def verify_cart(self):
         try:
-            item = self.get_text(By.XPATH, '//button[@id="header-bag-icon"]')
-            assert item is not None, "Cart is empty!"
-            logger.info("Assertion passed: Cart has items.")
+            cart_count = self.wait.until(
+                EC.presence_of_element_located((By.XPATH, '//span[@class="cart-count"]'))
+            )
 
-            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "CartPage_VerifyCart")
-            allure.attach.file(screenshot_path, name="CartPage_VerifyCart", attachment_type=allure.attachment_type.PNG)
+            assert int(cart_count.text) > 0, "Cart is empty!"
+            logger.info("Assertion passed: Cart has items")
 
-        except AssertionError as ae:
-            logger.error(f"Assertion failed: {str(ae)}")
-            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "CartPage_VerifyCart_Failure")
-            allure.attach.file(screenshot_path, name="CartPage_VerifyCart_Failure", attachment_type=allure.attachment_type.PNG)
-            raise
         except Exception as e:
             logger.error(f"Error verifying cart: {str(e)}")
             screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "CartPage_VerifyCart_Error")
-            allure.attach.file(screenshot_path, name="CartPage_VerifyCart_Error", attachment_type=allure.attachment_type.PNG)
+            allure.attach.file(screenshot_path, name="CartPage_VerifyCart_Error",
+                               attachment_type=allure.attachment_type.PNG)
             raise
 
     def click_bag(self):
@@ -40,9 +36,6 @@ class CartPage(BasePage):
             bag_click.click()
             logger.info("Clicked bag icon.")
             time.sleep(2)
-
-            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "CartPage_BagClicked")
-            allure.attach.file(screenshot_path, name="CartPage_BagClicked", attachment_type=allure.attachment_type.PNG)
 
         except Exception as e:
             logger.error(f"Error clicking bag icon: {str(e)}")
@@ -58,9 +51,6 @@ class CartPage(BasePage):
             proceed_click.click()
             logger.info("Clicked Proceed button.")
             time.sleep(2)
-
-            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "CartPage_ProceedClicked")
-            allure.attach.file(screenshot_path, name="CartPage_ProceedClicked", attachment_type=allure.attachment_type.PNG)
 
         except Exception as e:
             logger.error(f"Error clicking Proceed: {str(e)}")
@@ -81,9 +71,6 @@ class CartPage(BasePage):
             assert "address" in self.driver.current_url.lower(), \
                 f"Shipping page not loaded! Current URL: {self.driver.current_url}"
             logger.info("Assertion passed: Shipping details page loaded.")
-
-            screenshot_path = ScreenshotUtil.capture_screenshot(self.driver, "CartPage_ContinueAsGuest")
-            allure.attach.file(screenshot_path, name="CartPage_ContinueAsGuest", attachment_type=allure.attachment_type.PNG)
 
             return ShippingDetailsPage(self.driver)
 

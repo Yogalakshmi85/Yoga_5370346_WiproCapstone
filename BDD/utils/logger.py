@@ -9,6 +9,8 @@ class LogGen:
         logger = logging.getLogger("automation")   # named logger avoids pytest root conflict
         logger.setLevel(logging.INFO)
 
+        logger.propagate = False
+
         if not any(isinstance(h, logging.FileHandler) for h in logger.handlers):
             file_handler = logging.FileHandler(os.path.join(log_dir, "automation.log"), mode="a")
             formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")

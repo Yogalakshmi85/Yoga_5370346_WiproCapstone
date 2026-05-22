@@ -37,6 +37,9 @@ def step_impl(context, search_text):
 def step_impl(context):
     try:
         assert context.search_result == "error", f"Expected error for {context.search_text}, got {context.search_result}"
+        screenshot_path = ScreenshotUtil.capture_screenshot(context.driver, "InvalidSearch_Success")
+        allure.attach.file(screenshot_path, name="InvalidSearch_Success", attachment_type=allure.attachment_type.PNG)
+
         logger.info("Assertion passed: Invalid search error message displayed")
     except AssertionError as ae:
         logger.error(f"Assertion failed: {ae}")
