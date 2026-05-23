@@ -124,7 +124,6 @@ class Category(BasePage):
 
         except Exception as e:
             logger.error(f"Error while sorting: {str(e)}")
-            self.driver.save_screenshot("sort_action_failed.png")
             raise
 
 
@@ -155,10 +154,8 @@ class Category(BasePage):
 
         except AssertionError as ae:
             logger.error(f"Assertion failed: {str(ae)}")
-            self.driver.save_screenshot("sort_assertion_failed.png")
             raise
 
         except Exception as e:
             logger.error(f"Exception during verification: {str(e)}")
-            self.driver.save_screenshot("sort_exception.png")
             raise
