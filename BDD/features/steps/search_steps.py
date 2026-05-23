@@ -12,9 +12,11 @@ def step_impl(context):
     try:
         context.home_page = HomePage(context.driver)
         logger.info("Opened Nykaa homepage")
+
         assert "nykaa" in context.driver.current_url.lower(), "Homepage not loaded correctly"
         screenshot_path = ScreenshotUtil.capture_screenshot(context.driver, "Homepage_Loaded")
         allure.attach.file(screenshot_path, name="Homepage_Loaded", attachment_type=allure.attachment_type.PNG)
+
     except (AssertionError, TimeoutException, NoSuchElementException) as e:
         logger.error(f"Homepage validation failed: {e}")
         screenshot_path = ScreenshotUtil.capture_screenshot(context.driver, "Homepage_Error")

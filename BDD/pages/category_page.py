@@ -57,8 +57,6 @@ class Category(BasePage):
                 if brand_name.lower() in product.text.lower():
                     logger.info(f"Brand filter working: {brand_name}")
                     return True
-
-            logger.warning(f"Brand name not visible in titles, but filter likely applied")
             return True
 
         except Exception as e:
@@ -102,3 +100,65 @@ class Category(BasePage):
             allure.attach.file(screenshot_path, name="Page_ProductSelection_Error", attachment_type=allure.attachment_type.PNG)
             raise
 
+    def sort_products_by_name(self):
+        logger.info("Sorting products by Name")
+
+        try:
+            # Click sort dropdown
+            sort_button = self.wait.until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, '//span[@class="sort-name"]/parent::button')
+                )
+            )
+            sort_button.click()
+            logger.info("Clicked sort dropdown")
+
+            # Select "Name"
+            sort_option = self.wait.until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, '//label[.//span[text()="name"]]')
+                )
+            )
+            sort_option.click()
+            logger.info("Selected 'Name' sorting option")
+
+        except Exception as e:
+            logger.error(f"Error while sorting: {str(e)}")
+            self.driver.save_screenshot("sort_action_failed.png")
+            raise
+
+
+    # VALIDATION: Verify sorted by Name
+    def verify_products_sorted_by_name(self):
+        logger.info("Verifying products are sorted by Name")
+
+        try:
+            # Wait for product list
+            products = self.wait.until(
+                EC.presence_of_all_elements_located(
+                    (By.XPATH, '//div[contains(@class,"productWrapper")]//a')
+                )
+            )
+
+            # Extract names
+            actual_names = [p.text.strip().lower() for p in products if p.text.strip()]
+
+            logger.info(f"Actual product names: {actual_names}")
+
+            # Expected sorted list
+            expected_names = sorted(actual_names)
+
+            # Assertion
+            assert actual_names == expected_names, "Products are NOT sorted by name"
+
+            logger.info("Products are correctly sorted by Name ")
+
+        except AssertionError as ae:
+            logger.error(f"Assertion failed: {str(ae)}")
+            self.driver.save_screenshot("sort_assertion_failed.png")
+            raise
+
+        except Exception as e:
+            logger.error(f"Exception during verification: {str(e)}")
+            self.driver.save_screenshot("sort_exception.png")
+            raise

@@ -17,10 +17,12 @@ logger = LogGen.loggen()
 def step_impl(context, section):
     try:
         context.men_page = context.home_page.go_to_men(section)
+        
         assert section in context.driver.current_url.lower(), f"{section} page not loaded!"
         logger.info(f"Navigation successful: {section} page loaded")
         screenshot_path = ScreenshotUtil.capture_screenshot(context.driver, f"Section_{section}")
         allure.attach.file(screenshot_path, name=f"Section_{section}", attachment_type=allure.attachment_type.PNG)
+
     except AssertionError as ae:
         logger.error(f"Assertion failed: {ae}")
         screenshot_path = ScreenshotUtil.capture_screenshot(context.driver, f"Section_{section}_Failure")
@@ -371,4 +373,3 @@ def step_select_payment(context):
     except NoSuchElementException as ne:
         logger.error(f"payment element not found: {ne}")
         raise
-

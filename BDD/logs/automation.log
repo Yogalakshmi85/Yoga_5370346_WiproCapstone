@@ -1,348 +1,393 @@
-2026-05-23 02:35:35,628 - INFO - ========================================
-2026-05-23 02:35:35,629 - INFO - AUTOMATION EXECUTION STARTED
-2026-05-23 02:35:35,629 - INFO - Starting Behave Test Execution
-2026-05-23 02:35:37,029 - INFO - ========================================
-2026-05-23 02:35:37,030 - INFO - STARTING SCENARIO : Complete navigation flow -- @1.1 
-2026-05-23 02:35:37,030 - INFO - Browser fetched : chrome
-2026-05-23 02:35:37,030 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:35:37,030 - INFO - Implicit wait fetched : 5
-2026-05-23 02:35:37,030 - INFO - Headless mode : False
-2026-05-23 02:35:37,031 - INFO - Launching Chrome Browser
-2026-05-23 02:35:44,314 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:35:44,317 - INFO - Opened Nykaa homepage
-2026-05-23 02:35:45,464 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023544.png
-2026-05-23 02:35:45,474 - INFO - Attempting to navigate to section: men
-2026-05-23 02:35:46,010 - INFO - Clicked on men link
-2026-05-23 02:35:46,038 - INFO - Switched to new window/tab
-2026-05-23 02:35:47,701 - INFO - Assertion passed: men page successfully loaded
-2026-05-23 02:35:48,186 - INFO - Navigation successful: men page loaded
-2026-05-23 02:35:49,065 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260523_023548.png
-2026-05-23 02:35:49,080 - INFO - Attempting to navigate to health-nutrition: health-nutrition
-2026-05-23 02:35:54,012 - INFO - Clicked Category banner for health-nutrition
-2026-05-23 02:35:54,035 - INFO - Switched to new window/tab
-2026-05-23 02:35:54,368 - INFO - Assertion passed: health-nutrition page successfully loaded
-2026-05-23 02:35:54,530 - INFO - Navigation successful: health-nutrition page loaded
-2026-05-23 02:35:54,854 - INFO - Screenshot saved at: reports/screenshots/health-nutrition_20260523_023554.png
-2026-05-23 02:35:54,871 - INFO - Assertion passed: category page loaded successfully
-2026-05-23 02:35:54,876 - INFO - Expanding Brand filter
-2026-05-23 02:35:55,509 - INFO - Selecting Brand: Beautywise
-2026-05-23 02:35:56,844 - INFO - Brand filter working: Beautywise
-2026-05-23 02:35:56,845 - INFO - Applied filter: Brand -> Beautywise
-2026-05-23 02:35:58,510 - INFO - Screenshot saved at: reports/screenshots/Filter_Beautywise_20260523_023556.png
-2026-05-23 02:35:58,516 - INFO - Expanding Price filter
-2026-05-23 02:35:59,279 - INFO - Selecting Price: Rs. 2000 - Rs. 3999
-2026-05-23 02:36:00,310 - INFO - Price filter applied, products visible
-2026-05-23 02:36:00,310 - INFO - Applied filter: Price -> Rs. 2000 - Rs. 3999
-2026-05-23 02:36:00,694 - INFO - Screenshot saved at: reports/screenshots/Filter_Rs._2000_-_Rs._3999_20260523_023600.png
-2026-05-23 02:36:00,701 - INFO - Assertion passed: Products filtered
-2026-05-23 02:36:00,706 - INFO - Selecting first product card
-2026-05-23 02:36:01,620 - INFO - Switched to product tab
-2026-05-23 02:36:01,622 - INFO - Product selected successfully
-2026-05-23 02:36:04,009 - INFO - Screenshot saved at: reports/screenshots/Product_Selected_20260523_023601.png
-2026-05-23 02:36:04,016 - INFO - Attempting to add product to cart
-2026-05-23 02:36:04,016 - INFO - Starting add to cart process
-2026-05-23 02:36:07,573 - INFO - Clicked 'Add to Bag' button
-2026-05-23 02:36:09,608 - INFO - Assertion passed: Product successfully added to cart
-2026-05-23 02:36:09,609 - INFO - Product added to cart successfully
-2026-05-23 02:36:10,033 - INFO - Screenshot saved at: reports/screenshots/Product_Added_To_Cart_20260523_023609.png
-2026-05-23 02:36:10,041 - INFO - Verifying cart contents
-2026-05-23 02:36:10,290 - INFO - Assertion passed: Cart has items
-2026-05-23 02:36:10,562 - INFO - Screenshot saved at: reports/screenshots/Cart_Verified_20260523_023610.png
-2026-05-23 02:36:10,568 - INFO - Cart verification successful
-2026-05-23 02:36:10,571 - INFO - Opening cart
-2026-05-23 02:36:11,216 - INFO - Clicked bag icon.
-2026-05-23 02:36:13,505 - INFO - Screenshot saved at: reports/screenshots/Cart_Opened_20260523_023613.png
-2026-05-23 02:36:13,514 - INFO - Cart opened successfully
-2026-05-23 02:36:13,517 - INFO - Proceeding to checkout
-2026-05-23 02:36:15,185 - INFO - Clicked Proceed button.
-2026-05-23 02:36:17,794 - INFO - Screenshot saved at: reports/screenshots/Proceed_Clicked_20260523_023617.png
-2026-05-23 02:36:17,799 - INFO - Proceed clicked successfully
-2026-05-23 02:36:17,802 - INFO - Continuing as guest
-2026-05-23 02:36:18,260 - INFO - Clicked Continue as guest.
-2026-05-23 02:36:23,274 - INFO - Assertion passed: Shipping details page loaded.
-2026-05-23 02:36:23,415 - INFO - Screenshot saved at: reports/screenshots/Continue_As_Guest_20260523_023623.png
-2026-05-23 02:36:23,419 - INFO - Successfully navigated to shipping page
-2026-05-23 02:36:23,421 - INFO - Entering shipping details using file: data.csv
-2026-05-23 02:36:23,421 - INFO - Reading shipping details from CSV
-2026-05-23 02:36:26,723 - INFO - Shipping details filled successfully
-2026-05-23 02:36:26,772 - INFO - Shipping details entered successfully
-2026-05-23 02:36:26,940 - INFO - Screenshot saved at: reports/screenshots/Step_ShippingDetails_Entered_20260523_023626.png
-2026-05-23 02:36:26,947 - INFO - Clicking 'Ship to this address' button
-2026-05-23 02:36:26,947 - INFO - Clicking 'SHIP TO THIS ADDRESS' button
-2026-05-23 02:36:27,348 - INFO - Clicked ship button
-2026-05-23 02:36:27,577 - INFO - Screenshot saved at: reports/screenshots/Step_Click_Ship_20260523_023627.png
-2026-05-23 02:36:27,581 - INFO - Clicked ship button successfully
-2026-05-23 02:36:27,584 - INFO - Validating navigation to Payment Page for valid pincode
-2026-05-23 02:36:27,607 - INFO - Current URL: https://www.nykaa.com/v2/address
-2026-05-23 02:36:28,717 - INFO - Assertion passed: Successfully navigated to Payment Page
-2026-05-23 02:36:29,083 - INFO - Screenshot saved at: reports/screenshots/Step_PaymentPage_Validated_20260523_023628.png
-2026-05-23 02:36:29,093 - INFO - Selecting a payment method
-2026-05-23 02:36:29,094 - INFO - Attempting to select payment method: Cash on delivery
-2026-05-23 02:36:29,577 - INFO - Clicked on Cash on delivery option
-2026-05-23 02:36:29,644 - INFO - Assertion passed: Cash on delivery option activated
-2026-05-23 02:36:29,644 - INFO - Cash on delivery selected successful
-2026-05-23 02:36:29,841 - INFO - Screenshot saved at: reports/screenshots/Step_payment_Selected_20260523_023629.png
-2026-05-23 02:36:29,846 - INFO - Scenario Status : Status.passed
-2026-05-23 02:36:29,846 - INFO - SCENARIO PASSED : Complete navigation flow -- @1.1 
-2026-05-23 02:36:32,998 - INFO - Browser Closed Successfully
-2026-05-23 02:36:32,998 - INFO - ========================================
-2026-05-23 02:36:33,009 - INFO - ========================================
-2026-05-23 02:36:33,009 - INFO - STARTING SCENARIO : Apply filters and validate results -- @1.1 
-2026-05-23 02:36:33,009 - INFO - Browser fetched : chrome
-2026-05-23 02:36:33,009 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:36:33,010 - INFO - Implicit wait fetched : 5
-2026-05-23 02:36:33,010 - INFO - Headless mode : False
-2026-05-23 02:36:33,010 - INFO - Launching Chrome Browser
-2026-05-23 02:36:37,338 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:36:37,340 - INFO - Opened Nykaa homepage
-2026-05-23 02:36:38,725 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023637.png
-2026-05-23 02:36:38,732 - INFO - Attempting to navigate to section: men
-2026-05-23 02:36:40,730 - INFO - Clicked on men link
-2026-05-23 02:36:41,392 - INFO - Switched to new window/tab
-2026-05-23 02:36:42,030 - INFO - Assertion passed: men page successfully loaded
-2026-05-23 02:36:42,192 - INFO - Navigation successful: men page loaded
-2026-05-23 02:36:43,044 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260523_023642.png
-2026-05-23 02:36:43,052 - INFO - Attempting to navigate to hair: hair
-2026-05-23 02:36:46,175 - INFO - Clicked Category banner for hair
-2026-05-23 02:36:46,193 - INFO - Switched to new window/tab
-2026-05-23 02:36:46,357 - INFO - Assertion passed: hair page successfully loaded
-2026-05-23 02:36:46,504 - INFO - Navigation successful: hair page loaded
-2026-05-23 02:36:46,950 - INFO - Screenshot saved at: reports/screenshots/hair_20260523_023646.png
-2026-05-23 02:36:46,972 - INFO - Assertion passed: category page loaded successfully
-2026-05-23 02:36:46,974 - INFO - Expanding Brand filter
-2026-05-23 02:36:47,694 - INFO - Selecting Brand: Dove
-2026-05-23 02:36:50,267 - INFO - Brand filter working: Dove
-2026-05-23 02:36:50,502 - INFO - Screenshot saved at: reports/screenshots/Filter_Brand_Dove_20260523_023650.png
-2026-05-23 02:36:50,509 - INFO - Applied Brand filter: Dove, result: True
-2026-05-23 02:36:50,511 - INFO - Assertion passed: Products found for valid filter
-2026-05-23 02:36:50,754 - INFO - Screenshot saved at: reports/screenshots/FilterValidation_True_20260523_023650.png
-2026-05-23 02:36:50,763 - INFO - Scenario Status : Status.passed
-2026-05-23 02:36:50,764 - INFO - SCENARIO PASSED : Apply filters and validate results -- @1.1 
-2026-05-23 02:36:53,746 - INFO - Browser Closed Successfully
-2026-05-23 02:36:53,746 - INFO - ========================================
-2026-05-23 02:36:53,750 - INFO - ========================================
-2026-05-23 02:36:53,751 - INFO - STARTING SCENARIO : Apply filters and validate results -- @1.2 
-2026-05-23 02:36:53,751 - INFO - Browser fetched : chrome
-2026-05-23 02:36:53,751 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:36:53,751 - INFO - Implicit wait fetched : 5
-2026-05-23 02:36:53,751 - INFO - Headless mode : False
-2026-05-23 02:36:53,751 - INFO - Launching Chrome Browser
-2026-05-23 02:36:58,276 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:36:58,278 - INFO - Opened Nykaa homepage
-2026-05-23 02:36:59,336 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023658.png
-2026-05-23 02:36:59,344 - INFO - Attempting to navigate to section: men
-2026-05-23 02:36:59,893 - INFO - Clicked on men link
-2026-05-23 02:37:00,083 - INFO - Switched to new window/tab
-2026-05-23 02:37:02,004 - INFO - Assertion passed: men page successfully loaded
-2026-05-23 02:37:02,256 - INFO - Navigation successful: men page loaded
-2026-05-23 02:37:03,135 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260523_023702.png
-2026-05-23 02:37:03,142 - INFO - Attempting to navigate to hair: hair
-2026-05-23 02:37:06,323 - INFO - Clicked Category banner for hair
-2026-05-23 02:37:06,342 - INFO - Switched to new window/tab
-2026-05-23 02:37:06,773 - INFO - Assertion passed: hair page successfully loaded
-2026-05-23 02:37:06,932 - INFO - Navigation successful: hair page loaded
-2026-05-23 02:37:07,372 - INFO - Screenshot saved at: reports/screenshots/hair_20260523_023706.png
-2026-05-23 02:37:07,391 - INFO - Assertion passed: category page loaded successfully
-2026-05-23 02:37:07,394 - INFO - Expanding Brand filter
-2026-05-23 02:37:08,150 - INFO - Selecting Brand: InvalidBrand
-2026-05-23 02:37:18,768 - ERROR - Error applying filter Brand: Message: 
+2026-05-24 00:57:46,634 - INFO - ========================================
+2026-05-24 00:57:46,636 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-24 00:57:46,636 - INFO - Starting Behave Test Execution
+2026-05-24 00:57:48,745 - INFO - ========================================
+2026-05-24 00:57:48,745 - INFO - STARTING SCENARIO : Complete navigation flow -- @1.1 
+2026-05-24 00:57:48,745 - INFO - Browser fetched : chrome
+2026-05-24 00:57:48,745 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 00:57:48,746 - INFO - Implicit wait fetched : 5
+2026-05-24 00:57:48,746 - INFO - Headless mode : False
+2026-05-24 00:57:48,752 - INFO - Launching Chrome Browser
+2026-05-24 00:57:54,039 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 00:57:54,044 - INFO - Opened Nykaa homepage
+2026-05-24 00:57:57,785 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_005756.png
+2026-05-24 00:57:57,809 - INFO - Attempting to navigate to section: men
+2026-05-24 00:57:58,522 - INFO - Clicked on men link
+2026-05-24 00:57:58,566 - INFO - Switched to new window/tab
+2026-05-24 00:58:00,256 - INFO - Assertion passed: men page successfully loaded
+2026-05-24 00:58:01,110 - INFO - Navigation successful: men page loaded
+2026-05-24 00:58:02,829 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260524_005801.png
+2026-05-24 00:58:02,846 - INFO - Attempting to navigate to health-nutrition: health-nutrition
+2026-05-24 00:58:05,834 - INFO - Clicked Category banner for health-nutrition
+2026-05-24 00:58:05,939 - INFO - Switched to new window/tab
+2026-05-24 00:58:06,625 - INFO - Assertion passed: health-nutrition page successfully loaded
+2026-05-24 00:58:06,762 - INFO - Navigation successful: health-nutrition page loaded
+2026-05-24 00:58:07,178 - INFO - Screenshot saved at: reports/screenshots/health-nutrition_20260524_005806.png
+2026-05-24 00:58:07,354 - INFO - Assertion passed: category page loaded successfully
+2026-05-24 00:58:07,504 - INFO - Expanding Brand filter
+2026-05-24 00:58:08,804 - INFO - Selecting Brand: Beautywise
+2026-05-24 00:58:11,584 - INFO - Applied filter: Brand -> Beautywise
+2026-05-24 00:58:11,984 - INFO - Screenshot saved at: reports/screenshots/Filter_Beautywise_20260524_005811.png
+2026-05-24 00:58:11,994 - INFO - Expanding Price filter
+2026-05-24 00:58:12,926 - INFO - Selecting Price: Rs. 2000 - Rs. 3999
+2026-05-24 00:58:13,661 - INFO - Price filter applied, products visible
+2026-05-24 00:58:13,661 - INFO - Applied filter: Price -> Rs. 2000 - Rs. 3999
+2026-05-24 00:58:14,023 - INFO - Screenshot saved at: reports/screenshots/Filter_Rs._2000_-_Rs._3999_20260524_005813.png
+2026-05-24 00:58:14,036 - INFO - Assertion passed: Products filtered
+2026-05-24 00:58:14,041 - INFO - Selecting first product card
+2026-05-24 00:58:15,015 - INFO - Switched to product tab
+2026-05-24 00:58:15,016 - INFO - Product selected successfully
+2026-05-24 00:58:16,927 - INFO - Screenshot saved at: reports/screenshots/Product_Selected_20260524_005815.png
+2026-05-24 00:58:16,936 - INFO - Attempting to add product to cart
+2026-05-24 00:58:16,937 - INFO - Starting add to cart process
+2026-05-24 00:58:21,067 - INFO - Clicked 'Add to Bag' button
+2026-05-24 00:58:21,187 - INFO - Assertion passed: Product successfully added to cart
+2026-05-24 00:58:21,187 - INFO - Product added to cart successfully
+2026-05-24 00:58:22,159 - INFO - Screenshot saved at: reports/screenshots/Product_Added_To_Cart_20260524_005821.png
+2026-05-24 00:58:22,169 - INFO - Verifying cart contents
+2026-05-24 00:58:22,566 - INFO - Assertion passed: Cart has items
+2026-05-24 00:58:22,906 - INFO - Screenshot saved at: reports/screenshots/Cart_Verified_20260524_005822.png
+2026-05-24 00:58:22,912 - INFO - Cart verification successful
+2026-05-24 00:58:22,916 - INFO - Opening cart
+2026-05-24 00:58:23,399 - INFO - Clicked bag icon.
+2026-05-24 00:58:25,641 - INFO - Screenshot saved at: reports/screenshots/Cart_Opened_20260524_005825.png
+2026-05-24 00:58:25,646 - INFO - Cart opened successfully
+2026-05-24 00:58:25,654 - INFO - Proceeding to checkout
+2026-05-24 00:58:28,201 - INFO - Clicked Proceed button.
+2026-05-24 00:58:30,501 - INFO - Screenshot saved at: reports/screenshots/Proceed_Clicked_20260524_005830.png
+2026-05-24 00:58:30,505 - INFO - Proceed clicked successfully
+2026-05-24 00:58:30,508 - INFO - Continuing as guest
+2026-05-24 00:58:32,398 - INFO - Clicked Continue as guest.
+2026-05-24 00:58:37,411 - INFO - Assertion passed: Shipping details page loaded.
+2026-05-24 00:58:37,560 - INFO - Screenshot saved at: reports/screenshots/Continue_As_Guest_20260524_005837.png
+2026-05-24 00:58:37,567 - INFO - Successfully navigated to shipping page
+2026-05-24 00:58:37,570 - INFO - Entering shipping details using file: data.csv
+2026-05-24 00:58:37,570 - INFO - Reading shipping details from CSV
+2026-05-24 00:58:43,188 - INFO - Shipping details filled successfully
+2026-05-24 00:58:43,252 - INFO - Shipping details entered successfully
+2026-05-24 00:58:43,389 - INFO - Screenshot saved at: reports/screenshots/Step_ShippingDetails_Entered_20260524_005843.png
+2026-05-24 00:58:43,426 - INFO - Clicking 'Ship to this address' button
+2026-05-24 00:58:43,426 - INFO - Clicking 'SHIP TO THIS ADDRESS' button
+2026-05-24 00:58:45,096 - INFO - Clicked ship button
+2026-05-24 00:58:46,360 - INFO - Navigated to Payment Page successfully
+2026-05-24 00:58:46,705 - INFO - Screenshot saved at: reports/screenshots/Step_Click_Ship_20260524_005846.png
+2026-05-24 00:58:46,793 - INFO - Clicked ship button successfully
+2026-05-24 00:58:46,812 - INFO - Validating navigation to Payment Page for valid pincode
+2026-05-24 00:58:46,836 - INFO - Current URL: https://www.nykaa.com/v2/payment
+2026-05-24 00:58:47,045 - INFO - Assertion passed: Successfully navigated to Payment Page
+2026-05-24 00:58:47,241 - INFO - Screenshot saved at: reports/screenshots/Step_PaymentPage_Validated_20260524_005847.png
+2026-05-24 00:58:47,362 - INFO - Selecting a payment method
+2026-05-24 00:58:47,362 - INFO - Attempting to select payment method: Cash on delivery
+2026-05-24 00:58:48,143 - INFO - Clicked on Cash on delivery option
+2026-05-24 00:58:48,295 - INFO - Assertion passed: Cash on delivery option activated
+2026-05-24 00:58:48,297 - INFO - Cash on delivery selected successful
+2026-05-24 00:58:48,574 - INFO - Screenshot saved at: reports/screenshots/Step_payment_Selected_20260524_005848.png
+2026-05-24 00:58:48,587 - INFO - Scenario Status : Status.passed
+2026-05-24 00:58:48,589 - INFO - SCENARIO PASSED : Complete navigation flow -- @1.1 
+2026-05-24 00:58:57,454 - INFO - Browser Closed Successfully
+2026-05-24 00:58:57,455 - INFO - ========================================
+2026-05-24 00:58:57,467 - INFO - ========================================
+2026-05-24 00:58:57,467 - INFO - STARTING SCENARIO : Apply filters and validate results -- @1.1 
+2026-05-24 00:58:57,467 - INFO - Browser fetched : chrome
+2026-05-24 00:58:57,467 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 00:58:57,468 - INFO - Implicit wait fetched : 5
+2026-05-24 00:58:57,468 - INFO - Headless mode : False
+2026-05-24 00:58:57,468 - INFO - Launching Chrome Browser
+2026-05-24 00:59:02,178 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 00:59:02,181 - INFO - Opened Nykaa homepage
+2026-05-24 00:59:06,981 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_005903.png
+2026-05-24 00:59:06,989 - INFO - Attempting to navigate to section: men
+2026-05-24 00:59:09,178 - INFO - Clicked on men link
+2026-05-24 00:59:09,270 - INFO - Switched to new window/tab
+2026-05-24 00:59:11,950 - INFO - Assertion passed: men page successfully loaded
+2026-05-24 00:59:12,175 - INFO - Navigation successful: men page loaded
+2026-05-24 00:59:13,720 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260524_005912.png
+2026-05-24 00:59:13,728 - INFO - Attempting to navigate to hair: hair
+2026-05-24 00:59:17,455 - INFO - Clicked Category banner for hair
+2026-05-24 00:59:17,476 - INFO - Switched to new window/tab
+2026-05-24 00:59:17,882 - INFO - Assertion passed: hair page successfully loaded
+2026-05-24 00:59:18,025 - INFO - Navigation successful: hair page loaded
+2026-05-24 00:59:18,506 - INFO - Screenshot saved at: reports/screenshots/hair_20260524_005918.png
+2026-05-24 00:59:18,524 - INFO - Assertion passed: category page loaded successfully
+2026-05-24 00:59:18,525 - INFO - Expanding Brand filter
+2026-05-24 00:59:19,769 - INFO - Selecting Brand: Dove
+2026-05-24 00:59:23,023 - INFO - Brand filter working: Dove
+2026-05-24 00:59:23,367 - INFO - Screenshot saved at: reports/screenshots/Filter_Brand_Dove_20260524_005923.png
+2026-05-24 00:59:23,374 - INFO - Applied Brand filter: Dove, result: True
+2026-05-24 00:59:23,377 - INFO - Assertion passed: Products found for valid filter
+2026-05-24 00:59:23,737 - INFO - Screenshot saved at: reports/screenshots/FilterValidation_True_20260524_005923.png
+2026-05-24 00:59:23,785 - INFO - Scenario Status : Status.passed
+2026-05-24 00:59:23,786 - INFO - SCENARIO PASSED : Apply filters and validate results -- @1.1 
+2026-05-24 00:59:26,700 - INFO - Browser Closed Successfully
+2026-05-24 00:59:26,701 - INFO - ========================================
+2026-05-24 00:59:26,711 - INFO - ========================================
+2026-05-24 00:59:26,711 - INFO - STARTING SCENARIO : Apply filters and validate results -- @1.2 
+2026-05-24 00:59:26,711 - INFO - Browser fetched : chrome
+2026-05-24 00:59:26,711 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 00:59:26,712 - INFO - Implicit wait fetched : 5
+2026-05-24 00:59:26,712 - INFO - Headless mode : False
+2026-05-24 00:59:26,713 - INFO - Launching Chrome Browser
+2026-05-24 00:59:30,815 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 00:59:30,818 - INFO - Opened Nykaa homepage
+2026-05-24 00:59:33,453 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_005932.png
+2026-05-24 00:59:33,465 - INFO - Attempting to navigate to section: men
+2026-05-24 00:59:34,556 - INFO - Clicked on men link
+2026-05-24 00:59:34,632 - INFO - Switched to new window/tab
+2026-05-24 00:59:36,989 - INFO - Assertion passed: men page successfully loaded
+2026-05-24 00:59:37,286 - INFO - Navigation successful: men page loaded
+2026-05-24 00:59:37,914 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260524_005937.png
+2026-05-24 00:59:37,922 - INFO - Attempting to navigate to hair: hair
+2026-05-24 00:59:40,417 - INFO - Clicked Category banner for hair
+2026-05-24 00:59:40,430 - INFO - Switched to new window/tab
+2026-05-24 00:59:40,814 - INFO - Assertion passed: hair page successfully loaded
+2026-05-24 00:59:40,968 - INFO - Navigation successful: hair page loaded
+2026-05-24 00:59:41,458 - INFO - Screenshot saved at: reports/screenshots/hair_20260524_005940.png
+2026-05-24 00:59:41,477 - INFO - Assertion passed: category page loaded successfully
+2026-05-24 00:59:41,482 - INFO - Expanding Brand filter
+2026-05-24 00:59:42,755 - INFO - Selecting Brand: InvalidBrand
+2026-05-24 00:59:53,602 - ERROR - Error applying filter Brand: Message: 
 Stacktrace:
-	chromedriver!GetHandleVerifier [0x7ff7f7bb7de5+14895]
-	chromedriver!GetHandleVerifier [0x7ff7f7bb7e50+14900]
-	chromedriver!(No symbol) [0x7ff7f791d5ad]
-	chromedriver!(No symbol) [0x7ff7f7977822]
-	chromedriver!(No symbol) [0x7ff7f7977b2c]
-	chromedriver!(No symbol) [0x7ff7f79c7d17]
-	chromedriver!(No symbol) [0x7ff7f79c486f]
-	chromedriver!(No symbol) [0x7ff7f7969df8]
-	chromedriver!(No symbol) [0x7ff7f796ace3]
-	chromedriver!GetHandleVerifier [0x7ff7f7eccc49+3296f9]
-	chromedriver!GetHandleVerifier [0x7ff7f7ec7375+323e25]
-	chromedriver!GetHandleVerifier [0x7ff7f7eebc82+348732]
-	chromedriver!GetHandleVerifier [0x7ff7f7bd6045+32af5]
-	chromedriver!GetHandleVerifier [0x7ff7f7bdecec+3b79c]
-	chromedriver!GetHandleVerifier [0x7ff7f7bc1bc4+1e674]
-	chromedriver!GetHandleVerifier [0x7ff7f7bc1d54+1e804]
-	chromedriver!GetHandleVerifier [0x7ff7f7ba60e7+2b97]
+	chromedriver!GetHandleVerifier [0x7ff7da4d7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7da4d7e50+14900]
+	chromedriver!(No symbol) [0x7ff7da23d5ad]
+	chromedriver!(No symbol) [0x7ff7da297822]
+	chromedriver!(No symbol) [0x7ff7da297b2c]
+	chromedriver!(No symbol) [0x7ff7da2e7d17]
+	chromedriver!(No symbol) [0x7ff7da2e486f]
+	chromedriver!(No symbol) [0x7ff7da289df8]
+	chromedriver!(No symbol) [0x7ff7da28ace3]
+	chromedriver!GetHandleVerifier [0x7ff7da7ecc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7da7e7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7da80bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7da4f6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7da4fecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7da4e1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7da4e1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7da4c60e7+2b97]
 	KERNEL32!BaseThreadInitThunk [0x7ffc4096e957+17]
 	ntdll!RtlUserThreadStart [0x7ffc4106427c+2c]
 
-2026-05-23 02:37:19,317 - INFO - Screenshot saved at: reports/screenshots/Filter_Brand_InvalidBrand_20260523_023718.png
-2026-05-23 02:37:19,322 - INFO - Applied Brand filter: InvalidBrand, result: False
-2026-05-23 02:37:19,324 - INFO - Assertion passed: No products for invalid filter
-2026-05-23 02:37:19,897 - INFO - Screenshot saved at: reports/screenshots/FilterValidation_False_20260523_023719.png
-2026-05-23 02:37:19,904 - INFO - Scenario Status : Status.passed
-2026-05-23 02:37:19,905 - INFO - SCENARIO PASSED : Apply filters and validate results -- @1.2 
-2026-05-23 02:37:23,491 - INFO - Browser Closed Successfully
-2026-05-23 02:37:23,491 - INFO - ========================================
-2026-05-23 02:37:23,498 - INFO - ========================================
-2026-05-23 02:37:23,498 - INFO - STARTING SCENARIO : Check invalid pincode -- @1.1 
-2026-05-23 02:37:23,498 - INFO - Browser fetched : chrome
-2026-05-23 02:37:23,498 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:37:23,499 - INFO - Implicit wait fetched : 5
-2026-05-23 02:37:23,499 - INFO - Headless mode : False
-2026-05-23 02:37:23,499 - INFO - Launching Chrome Browser
-2026-05-23 02:37:28,173 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:37:28,178 - INFO - Opened Nykaa homepage
-2026-05-23 02:37:29,159 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023728.png
-2026-05-23 02:37:29,169 - INFO - Attempting to navigate to section: men
-2026-05-23 02:37:29,928 - INFO - Clicked on men link
-2026-05-23 02:37:30,716 - INFO - Switched to new window/tab
-2026-05-23 02:37:31,936 - INFO - Assertion passed: men page successfully loaded
-2026-05-23 02:37:32,131 - INFO - Navigation successful: men page loaded
-2026-05-23 02:37:32,909 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260523_023732.png
-2026-05-23 02:37:32,917 - INFO - Attempting to navigate to health-nutrition: health-nutrition
-2026-05-23 02:37:35,941 - INFO - Clicked Category banner for health-nutrition
-2026-05-23 02:37:35,953 - INFO - Switched to new window/tab
-2026-05-23 02:37:36,232 - INFO - Assertion passed: health-nutrition page successfully loaded
-2026-05-23 02:37:36,304 - INFO - Navigation successful: health-nutrition page loaded
-2026-05-23 02:37:36,679 - INFO - Screenshot saved at: reports/screenshots/health-nutrition_20260523_023736.png
-2026-05-23 02:37:36,696 - INFO - Assertion passed: category page loaded successfully
-2026-05-23 02:37:36,703 - INFO - Expanding Brand filter
-2026-05-23 02:37:37,346 - INFO - Selecting Brand: Beautywise
-2026-05-23 02:37:37,926 - WARNING - Brand name not visible in titles, but filter likely applied
-2026-05-23 02:37:37,927 - INFO - Applied filter: Brand -> Beautywise
-2026-05-23 02:37:38,369 - INFO - Screenshot saved at: reports/screenshots/Filter_Beautywise_20260523_023737.png
-2026-05-23 02:37:38,378 - INFO - Expanding Price filter
-2026-05-23 02:37:38,748 - INFO - Selecting Price: Rs. 2000 - Rs. 3999
-2026-05-23 02:37:40,863 - INFO - Price filter applied, products visible
-2026-05-23 02:37:40,864 - INFO - Applied filter: Price -> Rs. 2000 - Rs. 3999
-2026-05-23 02:37:41,236 - INFO - Screenshot saved at: reports/screenshots/Filter_Rs._2000_-_Rs._3999_20260523_023740.png
-2026-05-23 02:37:41,244 - INFO - Assertion passed: Products filtered
-2026-05-23 02:37:41,253 - INFO - Selecting first product card
-2026-05-23 02:37:42,148 - INFO - Switched to product tab
-2026-05-23 02:37:42,149 - INFO - Product selected successfully
-2026-05-23 02:37:44,279 - INFO - Screenshot saved at: reports/screenshots/Product_Selected_20260523_023742.png
-2026-05-23 02:37:44,286 - INFO - Attempting to add product to cart
-2026-05-23 02:37:44,287 - INFO - Starting add to cart process
-2026-05-23 02:37:46,657 - INFO - Clicked 'Add to Bag' button
-2026-05-23 02:37:46,820 - INFO - Assertion passed: Product successfully added to cart
-2026-05-23 02:37:46,821 - INFO - Product added to cart successfully
-2026-05-23 02:37:47,820 - INFO - Screenshot saved at: reports/screenshots/Product_Added_To_Cart_20260523_023746.png
-2026-05-23 02:37:47,829 - INFO - Verifying cart contents
-2026-05-23 02:37:47,916 - INFO - Assertion passed: Cart has items
-2026-05-23 02:37:48,121 - INFO - Screenshot saved at: reports/screenshots/Cart_Verified_20260523_023747.png
-2026-05-23 02:37:48,129 - INFO - Cart verification successful
-2026-05-23 02:37:48,132 - INFO - Opening cart
-2026-05-23 02:37:48,612 - INFO - Clicked bag icon.
-2026-05-23 02:37:50,802 - INFO - Screenshot saved at: reports/screenshots/Cart_Opened_20260523_023750.png
-2026-05-23 02:37:50,814 - INFO - Cart opened successfully
-2026-05-23 02:37:50,817 - INFO - Proceeding to checkout
-2026-05-23 02:37:52,300 - INFO - Clicked Proceed button.
-2026-05-23 02:37:54,760 - INFO - Screenshot saved at: reports/screenshots/Proceed_Clicked_20260523_023754.png
-2026-05-23 02:37:54,764 - INFO - Proceed clicked successfully
-2026-05-23 02:37:54,767 - INFO - Continuing as guest
-2026-05-23 02:37:55,271 - INFO - Clicked Continue as guest.
-2026-05-23 02:38:00,285 - INFO - Assertion passed: Shipping details page loaded.
-2026-05-23 02:38:00,418 - INFO - Screenshot saved at: reports/screenshots/Continue_As_Guest_20260523_023800.png
-2026-05-23 02:38:00,422 - INFO - Successfully navigated to shipping page
-2026-05-23 02:38:00,428 - INFO - Entering shipping details using file: data.csv
-2026-05-23 02:38:00,428 - INFO - Reading shipping details from CSV
-2026-05-23 02:38:02,965 - INFO - Shipping details filled successfully
-2026-05-23 02:38:02,999 - INFO - Shipping details entered successfully
-2026-05-23 02:38:03,166 - INFO - Screenshot saved at: reports/screenshots/Step_ShippingDetails_Entered_20260523_023802.png
-2026-05-23 02:38:03,173 - INFO - Clicking 'Ship to this address' button
-2026-05-23 02:38:03,173 - INFO - Clicking 'SHIP TO THIS ADDRESS' button
-2026-05-23 02:38:03,543 - INFO - Clicked ship button
-2026-05-23 02:38:03,790 - INFO - Screenshot saved at: reports/screenshots/Step_Click_Ship_20260523_023803.png
-2026-05-23 02:38:03,794 - INFO - Clicked ship button successfully
-2026-05-23 02:38:03,809 - INFO - Invalid pincode validation successful
-2026-05-23 02:38:03,810 - INFO - Scenario Status : Status.passed
-2026-05-23 02:38:03,811 - INFO - SCENARIO PASSED : Check invalid pincode -- @1.1 
-2026-05-23 02:38:06,908 - INFO - Browser Closed Successfully
-2026-05-23 02:38:06,909 - INFO - ========================================
-2026-05-23 02:38:06,916 - INFO - ========================================
-2026-05-23 02:38:06,916 - INFO - STARTING SCENARIO : Verify OTP page load
-2026-05-23 02:38:06,916 - INFO - Browser fetched : chrome
-2026-05-23 02:38:06,916 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:38:06,916 - INFO - Implicit wait fetched : 5
-2026-05-23 02:38:06,917 - INFO - Headless mode : False
-2026-05-23 02:38:06,917 - INFO - Launching Chrome Browser
-2026-05-23 02:38:11,704 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:38:11,710 - INFO - Opened Nykaa homepage
-2026-05-23 02:38:12,737 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023812.png
-2026-05-23 02:38:13,133 - INFO - Clicked Sign in button
-2026-05-23 02:38:13,764 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260523_023813.png
-2026-05-23 02:38:14,182 - INFO - Entered phone number: 6369887216
-2026-05-23 02:38:14,790 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260523_023814.png
-2026-05-23 02:38:17,466 - INFO - Clicked Send OTP
-2026-05-23 02:38:17,947 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260523_023817.png
-2026-05-23 02:38:18,689 - INFO - Re-entered phone number on Auth page: 6369887216
-2026-05-23 02:38:18,906 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260523_023818.png
-2026-05-23 02:38:20,591 - INFO - OTP click was blocked (expected negative case)
-2026-05-23 02:38:20,898 - INFO - Screenshot saved at: reports/screenshots/Get_OTP_Blocked_20260523_023820.png
-2026-05-23 02:39:26,395 - ERROR - Assertion failed: OTP verification page did not load
-2026-05-23 02:39:26,397 - INFO - Scenario Status : Status.failed
-2026-05-23 02:39:26,397 - ERROR - SCENARIO FAILED : Verify OTP page load
-2026-05-23 02:39:26,514 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260523_023926.png
-2026-05-23 02:39:26,514 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260523_023926.png
-2026-05-23 02:39:29,605 - INFO - Browser Closed Successfully
-2026-05-23 02:39:29,606 - INFO - ========================================
-2026-05-23 02:39:29,615 - INFO - ========================================
-2026-05-23 02:39:29,616 - INFO - STARTING SCENARIO : Search for a product -- @1.1 
-2026-05-23 02:39:29,616 - INFO - Browser fetched : chrome
-2026-05-23 02:39:29,617 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:39:29,617 - INFO - Implicit wait fetched : 5
-2026-05-23 02:39:29,617 - INFO - Headless mode : False
-2026-05-23 02:39:29,617 - INFO - Launching Chrome Browser
-2026-05-23 02:39:34,064 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:39:34,067 - INFO - Opened Nykaa homepage
-2026-05-23 02:39:34,970 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023934.png
-2026-05-23 02:39:34,986 - INFO - Searching for product: @@@@
-2026-05-23 02:39:35,405 - INFO - Entered search text
-2026-05-23 02:39:36,423 - INFO - Pressed Enter for search
-2026-05-23 02:39:36,782 - INFO - Assertion passed: Error message displayed for invalid search
-2026-05-23 02:39:36,783 - INFO - Searched for product: @@@@
-2026-05-23 02:39:37,020 - INFO - Screenshot saved at: reports/screenshots/InvalidSearch_Success_20260523_023936.png
-2026-05-23 02:39:37,026 - INFO - Assertion passed: Invalid search error message displayed
-2026-05-23 02:39:37,028 - INFO - Scenario Status : Status.passed
-2026-05-23 02:39:37,028 - INFO - SCENARIO PASSED : Search for a product -- @1.1 
-2026-05-23 02:39:39,775 - INFO - Browser Closed Successfully
-2026-05-23 02:39:39,776 - INFO - ========================================
-2026-05-23 02:39:39,781 - INFO - ========================================
-2026-05-23 02:39:39,782 - INFO - STARTING SCENARIO : Search for a product -- @1.2 
-2026-05-23 02:39:39,782 - INFO - Browser fetched : chrome
-2026-05-23 02:39:39,782 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:39:39,782 - INFO - Implicit wait fetched : 5
-2026-05-23 02:39:39,783 - INFO - Headless mode : False
-2026-05-23 02:39:39,783 - INFO - Launching Chrome Browser
-2026-05-23 02:39:44,718 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:39:44,722 - INFO - Opened Nykaa homepage
-2026-05-23 02:39:45,828 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_023945.png
-2026-05-23 02:39:45,837 - INFO - Searching for product: serums
-2026-05-23 02:39:46,232 - INFO - Entered search text
-2026-05-23 02:39:48,672 - INFO - Pressed Enter for search
-2026-05-23 02:39:59,575 - INFO - No error message found, checking for valid results...
-2026-05-23 02:39:59,588 - INFO - Assertion passed: URL contains serums
-2026-05-23 02:39:59,883 - INFO - Screenshot saved at: reports/screenshots/Search_Valid_serums_20260523_023959.png
-2026-05-23 02:39:59,888 - INFO - Searched for product: serums
-2026-05-23 02:39:59,890 - INFO - Assertion passed: Product results displayed
-2026-05-23 02:39:59,892 - INFO - Scenario Status : Status.passed
-2026-05-23 02:39:59,892 - INFO - SCENARIO PASSED : Search for a product -- @1.2 
-2026-05-23 02:40:03,187 - INFO - Browser Closed Successfully
-2026-05-23 02:40:03,187 - INFO - ========================================
-2026-05-23 02:40:03,190 - INFO - ========================================
-2026-05-23 02:40:03,191 - INFO - STARTING SCENARIO : Validate empty cart
-2026-05-23 02:40:03,191 - INFO - Browser fetched : chrome
-2026-05-23 02:40:03,191 - INFO - Base URL fetched : https://www.nykaa.com/
-2026-05-23 02:40:03,191 - INFO - Implicit wait fetched : 5
-2026-05-23 02:40:03,191 - INFO - Headless mode : False
-2026-05-23 02:40:03,191 - INFO - Launching Chrome Browser
-2026-05-23 02:40:30,563 - INFO - Browser Opened & Maximized Successfully
-2026-05-23 02:40:30,569 - INFO - Opened Nykaa homepage
-2026-05-23 02:40:31,745 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260523_024031.png
-2026-05-23 02:40:31,757 - INFO - Validating empty cart
-2026-05-23 02:40:32,221 - INFO - Clicked bag icon
-2026-05-23 02:40:32,464 - INFO - Assertion passed: Cart is empty
-2026-05-23 02:40:33,008 - INFO - Screenshot saved at: reports/screenshots/HomePage_EmptyCart_20260523_024032.png
-2026-05-23 02:40:33,017 - INFO - Assertion passed: Cart is empty
-2026-05-23 02:40:33,537 - INFO - Screenshot saved at: reports/screenshots/Empty_Cart_20260523_024033.png
-2026-05-23 02:40:33,546 - INFO - Scenario Status : Status.passed
-2026-05-23 02:40:33,547 - INFO - SCENARIO PASSED : Validate empty cart
-2026-05-23 02:40:36,155 - INFO - Browser Closed Successfully
-2026-05-23 02:40:36,155 - INFO - ========================================
-2026-05-23 02:40:36,277 - INFO - Behave Execution Completed with status code : 1
-2026-05-23 02:40:36,278 - INFO - Generating Allure HTML Report
-2026-05-23 02:40:40,576 - INFO - Allure Report Generated with status code : 0
-2026-05-23 02:40:40,576 - INFO - AUTOMATION EXECUTION COMPLETED
-2026-05-23 02:40:40,576 - INFO - ========================================
+2026-05-24 00:59:54,141 - INFO - Screenshot saved at: reports/screenshots/Filter_Brand_InvalidBrand_20260524_005953.png
+2026-05-24 00:59:54,154 - INFO - Applied Brand filter: InvalidBrand, result: False
+2026-05-24 00:59:54,158 - INFO - Assertion passed: No products for invalid filter
+2026-05-24 00:59:54,806 - INFO - Screenshot saved at: reports/screenshots/FilterValidation_False_20260524_005954.png
+2026-05-24 00:59:54,856 - INFO - Scenario Status : Status.passed
+2026-05-24 00:59:54,857 - INFO - SCENARIO PASSED : Apply filters and validate results -- @1.2 
+2026-05-24 01:00:00,025 - INFO - Browser Closed Successfully
+2026-05-24 01:00:00,026 - INFO - ========================================
+2026-05-24 01:00:00,044 - INFO - ========================================
+2026-05-24 01:00:00,044 - INFO - STARTING SCENARIO : Check invalid pincode -- @1.1 
+2026-05-24 01:00:00,044 - INFO - Browser fetched : chrome
+2026-05-24 01:00:00,044 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 01:00:00,044 - INFO - Implicit wait fetched : 5
+2026-05-24 01:00:00,044 - INFO - Headless mode : False
+2026-05-24 01:00:00,044 - INFO - Launching Chrome Browser
+2026-05-24 01:00:04,408 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 01:00:04,412 - INFO - Opened Nykaa homepage
+2026-05-24 01:00:09,429 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_010005.png
+2026-05-24 01:00:09,448 - INFO - Attempting to navigate to section: men
+2026-05-24 01:00:11,672 - INFO - Clicked on men link
+2026-05-24 01:00:11,830 - INFO - Switched to new window/tab
+2026-05-24 01:00:14,228 - INFO - Assertion passed: men page successfully loaded
+2026-05-24 01:00:14,391 - INFO - Navigation successful: men page loaded
+2026-05-24 01:00:15,956 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260524_010014.png
+2026-05-24 01:00:15,963 - INFO - Attempting to navigate to health-nutrition: health-nutrition
+2026-05-24 01:00:19,282 - INFO - Clicked Category banner for health-nutrition
+2026-05-24 01:00:19,291 - INFO - Switched to new window/tab
+2026-05-24 01:00:19,646 - INFO - Assertion passed: health-nutrition page successfully loaded
+2026-05-24 01:00:19,798 - INFO - Navigation successful: health-nutrition page loaded
+2026-05-24 01:00:20,093 - INFO - Screenshot saved at: reports/screenshots/health-nutrition_20260524_010019.png
+2026-05-24 01:00:20,114 - INFO - Assertion passed: category page loaded successfully
+2026-05-24 01:00:20,123 - INFO - Expanding Brand filter
+2026-05-24 01:00:20,810 - INFO - Selecting Brand: Beautywise
+2026-05-24 01:00:21,816 - INFO - Applied filter: Brand -> Beautywise
+2026-05-24 01:00:22,125 - INFO - Screenshot saved at: reports/screenshots/Filter_Beautywise_20260524_010021.png
+2026-05-24 01:00:22,132 - INFO - Expanding Price filter
+2026-05-24 01:00:24,242 - INFO - Selecting Price: Rs. 2000 - Rs. 3999
+2026-05-24 01:00:25,657 - INFO - Price filter applied, products visible
+2026-05-24 01:00:25,657 - INFO - Applied filter: Price -> Rs. 2000 - Rs. 3999
+2026-05-24 01:00:25,992 - INFO - Screenshot saved at: reports/screenshots/Filter_Rs._2000_-_Rs._3999_20260524_010025.png
+2026-05-24 01:00:26,055 - INFO - Assertion passed: Products filtered
+2026-05-24 01:00:26,231 - INFO - Selecting first product card
+2026-05-24 01:00:27,789 - INFO - Switched to product tab
+2026-05-24 01:00:27,790 - INFO - Product selected successfully
+2026-05-24 01:00:29,475 - INFO - Screenshot saved at: reports/screenshots/Product_Selected_20260524_010027.png
+2026-05-24 01:00:29,508 - INFO - Attempting to add product to cart
+2026-05-24 01:00:29,509 - INFO - Starting add to cart process
+2026-05-24 01:00:31,464 - INFO - Clicked 'Add to Bag' button
+2026-05-24 01:00:31,671 - INFO - Assertion passed: Product successfully added to cart
+2026-05-24 01:00:31,672 - INFO - Product added to cart successfully
+2026-05-24 01:00:32,155 - INFO - Screenshot saved at: reports/screenshots/Product_Added_To_Cart_20260524_010031.png
+2026-05-24 01:00:32,163 - INFO - Verifying cart contents
+2026-05-24 01:00:32,356 - INFO - Assertion passed: Cart has items
+2026-05-24 01:00:32,606 - INFO - Screenshot saved at: reports/screenshots/Cart_Verified_20260524_010032.png
+2026-05-24 01:00:32,614 - INFO - Cart verification successful
+2026-05-24 01:00:32,619 - INFO - Opening cart
+2026-05-24 01:00:33,131 - INFO - Clicked bag icon.
+2026-05-24 01:00:36,203 - INFO - Screenshot saved at: reports/screenshots/Cart_Opened_20260524_010035.png
+2026-05-24 01:00:36,208 - INFO - Cart opened successfully
+2026-05-24 01:00:36,213 - INFO - Proceeding to checkout
+2026-05-24 01:00:38,671 - INFO - Clicked Proceed button.
+2026-05-24 01:00:41,336 - INFO - Screenshot saved at: reports/screenshots/Proceed_Clicked_20260524_010040.png
+2026-05-24 01:00:41,353 - INFO - Proceed clicked successfully
+2026-05-24 01:00:41,379 - INFO - Continuing as guest
+2026-05-24 01:00:42,908 - INFO - Clicked Continue as guest.
+2026-05-24 01:00:47,994 - INFO - Assertion passed: Shipping details page loaded.
+2026-05-24 01:00:48,354 - INFO - Screenshot saved at: reports/screenshots/Continue_As_Guest_20260524_010047.png
+2026-05-24 01:00:48,372 - INFO - Successfully navigated to shipping page
+2026-05-24 01:00:48,639 - INFO - Entering shipping details using file: data.csv
+2026-05-24 01:00:48,639 - INFO - Reading shipping details from CSV
+2026-05-24 01:00:56,097 - INFO - Shipping details filled successfully
+2026-05-24 01:00:56,406 - INFO - Shipping details entered successfully
+2026-05-24 01:00:56,672 - INFO - Screenshot saved at: reports/screenshots/Step_ShippingDetails_Entered_20260524_010056.png
+2026-05-24 01:00:56,752 - INFO - Clicking 'Ship to this address' button
+2026-05-24 01:00:56,753 - INFO - Clicking 'SHIP TO THIS ADDRESS' button
+2026-05-24 01:00:58,315 - INFO - Clicked ship button
+2026-05-24 01:00:59,181 - INFO - Screenshot saved at: reports/screenshots/Step_Click_Ship_20260524_010058.png
+2026-05-24 01:00:59,187 - INFO - Clicked ship button successfully
+2026-05-24 01:00:59,393 - INFO - Invalid pincode validation successful
+2026-05-24 01:00:59,487 - INFO - Scenario Status : Status.passed
+2026-05-24 01:00:59,487 - INFO - SCENARIO PASSED : Check invalid pincode -- @1.1 
+2026-05-24 01:01:11,564 - INFO - Browser Closed Successfully
+2026-05-24 01:01:11,565 - INFO - ========================================
+2026-05-24 01:01:11,572 - INFO - ========================================
+2026-05-24 01:01:11,573 - INFO - STARTING SCENARIO : Verify OTP page load
+2026-05-24 01:01:11,573 - INFO - Browser fetched : chrome
+2026-05-24 01:01:11,573 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 01:01:11,573 - INFO - Implicit wait fetched : 5
+2026-05-24 01:01:11,573 - INFO - Headless mode : False
+2026-05-24 01:01:11,573 - INFO - Launching Chrome Browser
+2026-05-24 01:01:15,962 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 01:01:15,966 - INFO - Opened Nykaa homepage
+2026-05-24 01:01:20,535 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_010117.png
+2026-05-24 01:01:22,839 - INFO - Clicked Sign in button
+2026-05-24 01:01:24,642 - INFO - Screenshot saved at: reports/screenshots/Signin_Clicked_20260524_010123.png
+2026-05-24 01:01:26,467 - INFO - Entered phone number: 6369887216
+2026-05-24 01:01:27,135 - INFO - Screenshot saved at: reports/screenshots/Phone_Entered_20260524_010126.png
+2026-05-24 01:01:29,400 - INFO - Clicked Send OTP
+2026-05-24 01:01:29,868 - INFO - Screenshot saved at: reports/screenshots/Send_OTP_Clicked_20260524_010129.png
+2026-05-24 01:01:30,374 - INFO - Re-entered phone number on Auth page: 6369887216
+2026-05-24 01:01:31,051 - INFO - Screenshot saved at: reports/screenshots/AuthPhone_Reentered_20260524_010130.png
+2026-05-24 01:01:33,669 - INFO - OTP Verification page displayed (UI flow successful)
+2026-05-24 01:01:33,853 - INFO - Screenshot saved at: reports/screenshots/OTP_Verification_Page_20260524_010133.png
+2026-05-24 01:02:06,629 - ERROR - Assertion failed: OTP verification page did not load
+2026-05-24 01:02:06,633 - INFO - Scenario Status : Status.failed
+2026-05-24 01:02:06,634 - ERROR - SCENARIO FAILED : Verify OTP page load
+2026-05-24 01:02:06,764 - INFO - Screenshot saved at: reports/screenshots/Verify_OTP_page_load_20260524_010206.png
+2026-05-24 01:02:06,765 - INFO - Screenshot Saved : reports/screenshots/Verify_OTP_page_load_20260524_010206.png
+2026-05-24 01:02:09,951 - INFO - Browser Closed Successfully
+2026-05-24 01:02:09,952 - INFO - ========================================
+2026-05-24 01:02:09,961 - INFO - ========================================
+2026-05-24 01:02:09,962 - INFO - STARTING SCENARIO : Search for a product -- @1.1 
+2026-05-24 01:02:09,962 - INFO - Browser fetched : chrome
+2026-05-24 01:02:09,962 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 01:02:09,962 - INFO - Implicit wait fetched : 5
+2026-05-24 01:02:09,962 - INFO - Headless mode : False
+2026-05-24 01:02:09,963 - INFO - Launching Chrome Browser
+2026-05-24 01:02:14,474 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 01:02:14,480 - INFO - Opened Nykaa homepage
+2026-05-24 01:02:16,296 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_010215.png
+2026-05-24 01:02:16,304 - INFO - Searching for product: @@@@
+2026-05-24 01:02:17,905 - INFO - Entered search text
+2026-05-24 01:02:19,220 - INFO - Pressed Enter for search
+2026-05-24 01:02:19,763 - INFO - Assertion passed: Error message displayed for invalid search
+2026-05-24 01:02:19,763 - INFO - Searched for product: @@@@
+2026-05-24 01:02:20,194 - INFO - Screenshot saved at: reports/screenshots/InvalidSearch_Success_20260524_010219.png
+2026-05-24 01:02:20,213 - INFO - Assertion passed: Invalid search error message displayed
+2026-05-24 01:02:20,219 - INFO - Scenario Status : Status.passed
+2026-05-24 01:02:20,220 - INFO - SCENARIO PASSED : Search for a product -- @1.1 
+2026-05-24 01:02:26,094 - INFO - Browser Closed Successfully
+2026-05-24 01:02:26,094 - INFO - ========================================
+2026-05-24 01:02:26,099 - INFO - ========================================
+2026-05-24 01:02:26,099 - INFO - STARTING SCENARIO : Search for a product -- @1.2 
+2026-05-24 01:02:26,099 - INFO - Browser fetched : chrome
+2026-05-24 01:02:26,100 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 01:02:26,100 - INFO - Implicit wait fetched : 5
+2026-05-24 01:02:26,100 - INFO - Headless mode : False
+2026-05-24 01:02:26,100 - INFO - Launching Chrome Browser
+2026-05-24 01:02:30,188 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 01:02:30,196 - INFO - Opened Nykaa homepage
+2026-05-24 01:02:34,931 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_010231.png
+2026-05-24 01:02:34,938 - INFO - Searching for product: serums
+2026-05-24 01:02:37,569 - INFO - Entered search text
+2026-05-24 01:02:40,595 - INFO - Pressed Enter for search
+2026-05-24 01:02:51,738 - INFO - No error message found, checking for valid results...
+2026-05-24 01:02:51,750 - INFO - Assertion passed: URL contains serums
+2026-05-24 01:02:52,084 - INFO - Screenshot saved at: reports/screenshots/Search_Valid_serums_20260524_010251.png
+2026-05-24 01:02:52,097 - INFO - Searched for product: serums
+2026-05-24 01:02:52,099 - INFO - Assertion passed: Product results displayed
+2026-05-24 01:02:52,100 - INFO - Scenario Status : Status.passed
+2026-05-24 01:02:52,100 - INFO - SCENARIO PASSED : Search for a product -- @1.2 
+2026-05-24 01:02:58,204 - INFO - Browser Closed Successfully
+2026-05-24 01:02:58,204 - INFO - ========================================
+2026-05-24 01:02:58,210 - INFO - ========================================
+2026-05-24 01:02:58,210 - INFO - STARTING SCENARIO : Validate empty cart
+2026-05-24 01:02:58,210 - INFO - Browser fetched : chrome
+2026-05-24 01:02:58,210 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 01:02:58,210 - INFO - Implicit wait fetched : 5
+2026-05-24 01:02:58,211 - INFO - Headless mode : False
+2026-05-24 01:02:58,211 - INFO - Launching Chrome Browser
+2026-05-24 01:03:10,285 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 01:03:10,287 - INFO - Opened Nykaa homepage
+2026-05-24 01:03:12,244 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_010311.png
+2026-05-24 01:03:12,317 - INFO - Validating empty cart
+2026-05-24 01:03:13,885 - INFO - Clicked bag icon
+2026-05-24 01:03:15,027 - INFO - Assertion passed: Cart is empty
+2026-05-24 01:03:15,776 - INFO - Screenshot saved at: reports/screenshots/HomePage_EmptyCart_20260524_010315.png
+2026-05-24 01:03:15,784 - INFO - Assertion passed: Cart is empty
+2026-05-24 01:03:16,877 - INFO - Screenshot saved at: reports/screenshots/Empty_Cart_20260524_010315.png
+2026-05-24 01:03:17,014 - INFO - Scenario Status : Status.passed
+2026-05-24 01:03:17,016 - INFO - SCENARIO PASSED : Validate empty cart
+2026-05-24 01:03:20,078 - INFO - Browser Closed Successfully
+2026-05-24 01:03:20,078 - INFO - ========================================
+2026-05-24 01:03:20,094 - INFO - ========================================
+2026-05-24 01:03:20,094 - INFO - STARTING SCENARIO : Sorting testing -- @1.1 
+2026-05-24 01:03:20,094 - INFO - Browser fetched : chrome
+2026-05-24 01:03:20,094 - INFO - Base URL fetched : https://www.nykaa.com/
+2026-05-24 01:03:20,094 - INFO - Implicit wait fetched : 5
+2026-05-24 01:03:20,094 - INFO - Headless mode : False
+2026-05-24 01:03:20,095 - INFO - Launching Chrome Browser
+2026-05-24 01:03:24,339 - INFO - Browser Opened & Maximized Successfully
+2026-05-24 01:03:24,365 - INFO - Opened Nykaa homepage
+2026-05-24 01:03:26,781 - INFO - Screenshot saved at: reports/screenshots/Homepage_Loaded_20260524_010325.png
+2026-05-24 01:03:26,792 - INFO - Attempting to navigate to section: men
+2026-05-24 01:03:28,285 - INFO - Clicked on men link
+2026-05-24 01:03:28,479 - INFO - Switched to new window/tab
+2026-05-24 01:03:30,824 - INFO - Assertion passed: men page successfully loaded
+2026-05-24 01:03:30,993 - INFO - Navigation successful: men page loaded
+2026-05-24 01:03:31,737 - INFO - Screenshot saved at: reports/screenshots/Section_men_20260524_010330.png
+2026-05-24 01:03:31,745 - INFO - Attempting to navigate to health-nutrition: health-nutrition
+2026-05-24 01:03:35,187 - INFO - Clicked Category banner for health-nutrition
+2026-05-24 01:03:35,202 - INFO - Switched to new window/tab
+2026-05-24 01:03:35,503 - INFO - Assertion passed: health-nutrition page successfully loaded
+2026-05-24 01:03:35,662 - INFO - Navigation successful: health-nutrition page loaded
+2026-05-24 01:03:35,983 - INFO - Screenshot saved at: reports/screenshots/health-nutrition_20260524_010335.png
+2026-05-24 01:03:36,035 - INFO - Assertion passed: category page loaded successfully
+2026-05-24 01:03:36,050 - INFO - Expanding Brand filter
+2026-05-24 01:03:37,350 - INFO - Selecting Brand: Beautywise
+2026-05-24 01:03:41,701 - INFO - Brand filter working: Beautywise
+2026-05-24 01:03:41,701 - INFO - Applied filter: Brand -> Beautywise
+2026-05-24 01:03:42,320 - INFO - Screenshot saved at: reports/screenshots/Filter_Beautywise_20260524_010341.png
+2026-05-24 01:03:42,370 - INFO - Expanding Price filter
+2026-05-24 01:03:43,869 - INFO - Selecting Price: Rs. 2000 - Rs. 3999
+2026-05-24 01:03:45,318 - INFO - Price filter applied, products visible
+2026-05-24 01:03:45,318 - INFO - Applied filter: Price -> Rs. 2000 - Rs. 3999
+2026-05-24 01:03:45,878 - INFO - Screenshot saved at: reports/screenshots/Filter_Rs._2000_-_Rs._3999_20260524_010345.png
+2026-05-24 01:03:45,890 - INFO - Assertion passed: Products filtered
+2026-05-24 01:03:45,894 - INFO - Step: I sort the products
+2026-05-24 01:03:45,894 - INFO - Sorting products by Name
+2026-05-24 01:03:46,827 - INFO - Clicked sort dropdown
+2026-05-24 01:03:47,345 - INFO - Selected 'Name' sorting option
+2026-05-24 01:03:47,346 - INFO - Verifying products are sorted by Name
+2026-05-24 01:03:48,103 - INFO - Products are correctly sorted by Name 
+2026-05-24 01:03:48,396 - INFO - Screenshot saved at: reports/screenshots/Sorting_20260524_010348.png
+2026-05-24 01:03:48,401 - INFO - Step passed: Products sorted successfully
+2026-05-24 01:03:48,402 - INFO - Scenario Status : Status.passed
+2026-05-24 01:03:48,403 - INFO - SCENARIO PASSED : Sorting testing -- @1.1 
+2026-05-24 01:03:51,597 - INFO - Browser Closed Successfully
+2026-05-24 01:03:51,597 - INFO - ========================================
+2026-05-24 01:03:51,743 - INFO - Behave Execution Completed with status code : 1
+2026-05-24 01:03:51,743 - INFO - Generating Allure HTML Report
+2026-05-24 01:03:57,591 - INFO - Allure Report Generated with status code : 0
+2026-05-24 01:03:57,591 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-24 01:03:57,592 - INFO - ========================================
